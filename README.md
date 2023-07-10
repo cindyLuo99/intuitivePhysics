@@ -28,7 +28,7 @@ Trial_2:
         -	Inertia while dragging = 10
 
 -	Data Recorded:
-    -	The initial position of the triangle (randomly initialized so that the whole triangle should be behind where the occlude was)
+    -	The initial position of the triangle (randomly initialized so that the whole triangle should be behind where the occluder was)
         -	triangle_initial_x; triangle_initial_y
     -	The final position of the triangle after the participant pressed the submit button
         -	triangle_final_x; triangle_final_y
