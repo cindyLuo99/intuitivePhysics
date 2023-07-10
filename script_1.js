@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", function () {
             // element: document.getElementById('simulation'),
             engine: engine,
             options: {
-                // wireframes: false,
-                wireframes: true,
+                wireframes: false,
+                // wireframes: true,
                 width: canvasWidth,
                 height: canvasHeight
             }
