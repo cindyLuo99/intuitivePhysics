@@ -1,5 +1,5 @@
-July 10
-Demo_1 Current Set Up
+**July 10**
+**Demo_1 Current Set Up**
 
 Trial_1:
 - Pre-determined Parameters:
