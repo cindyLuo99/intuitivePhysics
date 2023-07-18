@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.jspsych-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans';
+}
+
+.jspsych-display-element {
+    text-align: center;
+}
+
+#canvas-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#prompt-container {
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.prompt-text {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: -18px; 
+}
+
+#submit-button {
+    position: fixed;
+    right: 50px;
+    bottom: 80px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #00bfff; /* This sets the button color to a shade of green */
+    color: white; /* This sets the text color to white */
+}
+
+#submit-button:hover {
+    background-color: #0086b3; /* This sets the button color to a different shade of green when the mouse hovers over it */
+}
+
+
+
+/* .draggable {
+    cursor: move;
+  }
+  
+.triangle:hover {
+cursor: move;
+} */
+
+
+
+
+
