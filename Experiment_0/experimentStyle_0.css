@@ -1,0 +1,172 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* .jspsych-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans';
+} */
+
+.jspsych-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans';
+}
+
+
+.jspsych-display-element {
+    text-align: center;
+}
+
+.jspsych-html-button-response-button { height: 100px; width: 350px; font-size: 12px }
+
+#main-container_prac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#prompt-container_prac {
+    width: 100%; /* full width */
+    /* top: 100%; */
+    /* left: 50%; */
+    text-align: center;
+}
+
+#canvas-container_prac {
+    /* position: fixed; */
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    /* position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+#main-container_task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#canvas-container_task {
+    width: 100%;  /* adjust this as necessary */
+    height: 100%;  /* adjust this as necessary */
+    height: 80vh;
+}
+
+/* #prompt-container {
+    height: 80%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%);
+}
+
+#canvas-container {
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#prompt-container p {  
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 1em;
+} */
+
+/* 
+#prompt-container {
+    position: fixed;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Open Sans';
+} */
+
+/* .prompt-text {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+    text-align: center;
+    margin-top: -18px; 
+} */
+
+#submit-button {
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
+    font-size: 20px;
+    padding: 10px;
+    /* background-color: #00bfff; This sets the button color to a shade of green */
+    /* color: white; This sets the text color to white */
+}
+
+#submit-button:hover {
+    background-color: #0694f3; /*This sets the button color to a different shade of green when the mouse hovers over it */
+}
+
+
+
+/* .draggable {
+    cursor: move;
+  }
+  
+.triangle:hover {
+cursor: move;
+} */
+
+#progress-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#notification {
+    display: none; /* Hidden by default */
+    position: fixed; /* Position it relative to the viewport */
+    top: 50%; /* Position it at the middle */
+    left: 50%; /* Position it at the center */
+    transform: translate(-50%, -50%); /* Correct alignment */
+    background-color: #f8d7da; /* A light red background color */
+    color: #ce192b; /* Dark red text color */
+    padding: 20px; /* Some padding */
+    border: 1px solid #f5c6cb; /* A light red border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+
+
+
+
+
+
+
