@@ -172,32 +172,62 @@ document.addEventListener("DOMContentLoaded", function () {
             // add all of the bodies to the world
             Composite.add(engine.world, [ball, obstacle]);
 
-            var trail = [];
+            // if events on engine
+            let trail = [];
+
+            Events.on(engine, 'afterUpdate', function() {
+                if (ball.position.x >= 0 && ball.position.x <= canvasWidth &&
+                    ball.position.y >= 0 && ball.position.y <= canvasHeight) {
+                    trail.unshift({
+                        position: Vector.clone(ball.position),
+                        speed: ball.speed // Ensure that 'ball.speed' is correctly defined or calculated
+                    });
+                }
+            });
 
             Events.on(render, 'afterRender', function() {
-                if (ball.position.x >= 0 && ball.position.x <= canvasWidth &&
-                    ball.position.y >= 0 && ball.position.y <= canvasHeight){
-                        trail.unshift({
-                            position: Vector.clone(ball.position),
-                            speed: ball.speed
-                        });
-                    }
-
                 Render.startViewTransform(render);
-                render.context.globalAlpha = 0.7 // make the trail semi-transparent
-
+                render.context.globalAlpha = 0.7; // make the trail semi-transparent
+            
                 for (var i = 0; i < trail.length; i += 1) {
                     var point = trail[i].position,
                         speed = trail[i].speed;
-                    
+            
                     var hue = 250 + Math.round((1 - Math.min(1, speed / 10)) * 170);
                     render.context.fillStyle = 'hsl(' + hue + ', 100%, 55%)';
                     render.context.fillRect(point.x, point.y, 2, 2);
                 }
-        
+            
                 render.context.globalAlpha = 1;
                 Render.endViewTransform(render);   
-            })
+            });            
+
+            // if events on render
+            // var trail = [];
+            // Events.on(render, 'afterRender', function() {
+            //     if (ball.position.x >= 0 && ball.position.x <= canvasWidth &&
+            //         ball.position.y >= 0 && ball.position.y <= canvasHeight){
+            //             trail.unshift({
+            //                 position: Vector.clone(ball.position),
+            //                 speed: ball.speed
+            //             });
+            //         }
+
+            //     Render.startViewTransform(render);
+            //     render.context.globalAlpha = 0.7 // make the trail semi-transparent
+
+            //     for (var i = 0; i < trail.length; i += 1) {
+            //         var point = trail[i].position,
+            //             speed = trail[i].speed;
+                    
+            //         var hue = 250 + Math.round((1 - Math.min(1, speed / 10)) * 170);
+            //         render.context.fillStyle = 'hsl(' + hue + ', 100%, 55%)';
+            //         render.context.fillRect(point.x, point.y, 2, 2);
+            //     }
+        
+            //     render.context.globalAlpha = 1;
+            //     Render.endViewTransform(render);   
+            // })
             console.log(trail)
             jsPsych.data.write({
                 'trail': trail,
@@ -378,12 +408,12 @@ document.addEventListener("DOMContentLoaded", function () {
             var obstacle_X = jsPsych.timelineVariable('first').y_1
             var obstacle_Y = jsPsych.timelineVariable('first').y_2
             // console.log(jsPsych.timelineVariable('first').stimulus_idx)
-            trial.data.flipped = Math.random() >= 0.5
-            if (trial.data.flipped) {
-                // console.log('Flipped!')
-                ball_X = canvasWidth - ball_X
-                obstacle_X = canvasWidth - obstacle_X
-            }
+            // trial.data.flipped = Math.random() >= 0.5
+            // if (trial.data.flipped) {
+            //     // console.log('Flipped!')
+            //     ball_X = canvasWidth - ball_X
+            //     obstacle_X = canvasWidth - obstacle_X
+            // }
             // console.log(ball_X, obstacle_X)
             currentTrial++;
             setupFallingObjectTrial(ball_X, ball_Y, ballRadius, obstacle_X, obstacle_Y, obstacleRadius);

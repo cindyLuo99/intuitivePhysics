@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Run Simulation</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+ <script src="../../MyExperiment/Experiment_1/shared_Setup_1.js"></script>
+ <!-- <script src="df_all_with_trajectory_pilot_v1.js"></script> -->
+</head>
+
+<body>
+
+<script>
+
+// module aliases
+var Engine = Matter.Engine,
+	// Runner = Matter.Runner,
+	Render = Matter.Render,
+	Bodies = Matter.Bodies,
+	Composite = Matter.Composite;
+	MouseConstraint = Matter.MouseConstraint,
+	Mouse = Matter.Mouse,
+	World = Matter.World,
+	Events = Matter.Events,
+	Vector = Matter.Vector;
+
+// create an engine
+var engine = Engine.create();
+
+engine.timing.timeScale = 1
+engine.world.gravity.y = 1;
+
+// Position parameters
+// var canvasWidth = 1000,
+// 	canvasHeight = 600,
+// 	occluderWidth = canvasWidth/2,
+// 	occluderHeight = canvasHeight/2;
+
+var ball_X = 604.4000000000001, 
+	// ball_Y = 10,
+	obstacle_X = 558.9336663013171, 
+	obstacle_Y = 132.63270311514998
+
+// create a renderer
+var render = Render.create({
+	element: document.body,
+	engine: engine,
+	options: {
+		// wireframes: false,
+		wireframes: true,
+		width: canvasWidth,
+		height: canvasHeight,
+	}
+});
+
+// add bodies
+var colorA = '#f55a3c',
+	colorB = '#f5d259';
+
+var ballCategory = 0x0001;
+	defaultCategory = 0x0002
+
+var desiredTimeStep = 1000/200;
+
+setInterval(function() {
+                Matter.Engine.update(engine, desiredTimeStep);
+                Render.world(render);  // Ensure the renderer reflects the changes
+            }, desiredTimeStep);
+
+var ball = Matter.Bodies.circle(ball_X, ball_Y, ballRadius, {
+	density: 0.04,
+	friction: 0.01,
+	frictionAir: 0.00001,
+	restitution: 0.3,
+	collisionFilter: {
+		category: ballCategory,
+	  },
+	// render: {
+	// 	fillStyle: colorB,
+	// 	strokeStyle: 'black',
+	// 	lineWidth: 1
+	// }
+});
+
+var obstacle = Bodies.polygon(obstacle_X, obstacle_Y, 3, obstacleRadius, {
+	isStatic: true,
+	density: 0.04,
+	friction: 0.01,
+	frictionAir: 0.00001,
+	restitution: 0.3,
+	collisionFilter: {
+		category: ballCategory,
+	  },
+	// render: {
+	// 	fillStyle: colorB,
+	// 	strokeStyle: 'black',
+	// 	lineWidth: 1
+	// }
+});
+
+Matter.Body.setAngle(obstacle, Math.PI / 2);
+
+// var occluder = Bodies.rectangle(canvasWidth/2, canvasHeight/2, occluderWidth, occluderHeight, {
+// 	isStatic: true,
+// 	collisionFilter: {
+// 		mask: defaultCategory,
+// 	  },
+// 	render: {
+// 		fillStyle: colorA,
+// 		visible: true
+// 	}
+// }
+// );
+
+// add all of the bodies to the world
+// Composite.add(engine.world, [ball, obstacle, occluder]);
+Composite.add(engine.world, [ball, obstacle]);
+
+let trail = [];
+
+Events.on(engine, 'afterUpdate', function() {
+	if (ball.position.x >= 0 && ball.position.x <= canvasWidth &&
+		ball.position.y >= 0 && ball.position.y <= canvasHeight) {
+		trail.unshift({
+			position: Vector.clone(ball.position),
+			speed: ball.speed // Ensure that 'ball.speed' is correctly defined or calculated
+		});
+	}
+});
+
+// run the renderer
+Render.run(render);
+
+// create runner
+// var runner = Runner.create();
+
+// run the engine
+// Runner.run(runner, engine);
+function sendTrailData() {
+    fetch('http://127.0.0.1:5000/upload-trail', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(trail),
+    })
+    .then(response => response.json())
+    .then(data => console.log(data.message))
+    .catch((error) => console.error('Error:', error));
+}
+
+// Call this function when you want to send the data
+setTimeout(function() {
+    sendTrailData(trail);
+}, 3000); // Adjust the time as needed
+
+</script>
+
+</body>
+</html>
