@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     category: ballCategory,
                 },
                 render: {
-                    visible: false,
+                    visible: false, // should be false
                     fillStyle: color_obstacle,
                     strokeStyle: 'black',
                     lineWidth: 1
@@ -173,8 +173,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     mask: defaultCategory,
                 },
                 render: {
-                    fillStyle: 'red',
-                    visible: true
+                    fillStyle: 'red', 
+                    visible: true // should be true
                 }
             });
             
