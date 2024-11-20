@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.jspsych-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans';
+}
+
+.jspsych-display-element {
+    text-align: center;
+}
+
+#canvas-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#prompt-container {
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.prompt-text {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: -18px; 
+}
+/* Container for No/Yes images and text */
+/* Container for the No and Yes hints */
+#hints-container {
+    position: fixed;
+    bottom: 250px; /* Position near the bottom of the screen */
+    width: 100%; /* Full width to span across the screen */
+    display: flex;
+    justify-content: space-between; /* Align "No" to the left and "Yes" to the right */
+    padding: 0 70px; /* Space from the edges */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+/* Individual hint container */
+.hint {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center; /* Center-align text and image */
+    gap: 10px; /* Space between the text and the image */
+}
+
+/* Styling for hint text */
+.hint-text {
+    font-size: 30px; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    color: #4b4946; /* Hint text color */
+    font-family: 'Open Sans', "Arial", sans-serif;
+    text-align: center; /* Center-align text */
+}
+
+/* Styling for the key image */
+.hint-image {
+    width: 80px; /* Adjust width of the key image */
+    height: 80px; /* Adjust height */
+    object-fit: contain; /* Ensure image fits without distortion */
+}
+
+
+/* .draggable {
+    cursor: move;
+  }
+  
+.triangle:hover {
+cursor: move;
+} */
+
+/* Timer Styles */
+
+/* Wrapper for the progress bar and timer */
+#progress-bar-wrapper {
+    display: flex;
+    align-items: center; /* Vertically align the progress bar and timer */
+    gap: 20px; /* Space between the bar and timer */
+    position: fixed;
+    top: 5%; /* Adjust as needed */
+    right: 5%; /* Adjust as needed */
+}
+/* Progress bar container (gray track) */
+#progress-bar-container {
+    width: 250px; /* Fixed width for the progress bar */
+    height: 15px; /* Height of the static gray bar */
+    background-color: #ccc; /* Static gray bar color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure orange bar doesn’t overflow */
+}
+
+/* Shrinking progress bar (orange bar) */
+#progress-bar {
+    width: 100%; /* Start at full width */
+    height: 100%; /* Matches container height */
+    background-color: orange; /* Active part of the bar */
+}
+
+/* Timer display */
+#timer-display {
+    font-size: 17px;
+    color: orange;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    white-space: nowrap; /* Prevent wrapping */
+}
