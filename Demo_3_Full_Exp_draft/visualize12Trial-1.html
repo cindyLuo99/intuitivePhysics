@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>12 Trials</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+        <script src="shared_setUp.js"></script>
+        <script src="fallingScene_info.js"></script>
+    </head>
+    <body>
+    </body>
+    <script>
+        // // Set Up
+        // // Object Size parameters
+        // const ballRadius = 30
+        // const obstacleRadius = 45
+        // // Position parameters
+        // const canvasWidth = 1000,
+        //     canvasHeight = 600,
+        //     occluder_X = canvasWidth / 2, 
+        //     occluder_Y = canvasHeight / 2,
+        //     occluderWidth = canvasWidth / 2,
+        //     occluderHeight = canvasHeight / 2
+
+        const Engine = Matter.Engine,
+              Runner = Matter.Runner,
+              Render = Matter.Render,
+              World = Matter.World,
+              Body = Matter.Body,
+              Bodies = Matter.Bodies,
+              Composite = Matter.Composite;
+        
+        const engine = Engine.create()
+              runner = Runner.create()
+        
+        const render = Render.create({
+            element: document.body,
+            engine: engine,
+            options: {
+                width: canvasWidth,
+                height: canvasHeight,
+                wireframes: true
+            }})
+
+        // add bodies
+        var colorA = '#f55a3c',
+            colorB = '#f5d259';
+
+        var ballCategory = 0x0001;
+            defaultCategory = 0x0002
+
+        for (var i = 0; i < fallingScene_info.length; i++) {
+            var trial = fallingScene_info[i];
+            // console.log(trial)
+            var obstacle_X = trial.y_1
+            var obstacle_Y = trial.y_2
+
+            var obstacle = Bodies.polygon(obstacle_X, obstacle_Y, 3, obstacleRadius, {
+                isStatic: true,
+                density: 0.04,
+                friction: 0.01,
+                frictionAir: 0.00001,
+                restitution: 0.3,
+                collisionFilter: {
+                    category: ballCategory,
+                },
+                render: {
+                    fillStyle: colorB,
+                    strokeStyle: 'black',
+                    lineWidth: 1
+                }
+        
+            });
+            Matter.Body.setAngle(obstacle, Math.PI / 2)
+            Composite.add(engine.world, [obstacle]);
+            console.log(`trial_idx: ${trial.stimulus_idx}, obstacle.position.x: ${obstacle.position.x}, obstacle.position.y: ${obstacle.position.y}`)
+            }
+        
+        const ballPositions = [0.0846, 0.44, 0.6488]
+
+        for (var i = 0; i < 3; i++){
+            var ball_x = ballPositions[i]
+            var ball_X = (canvasWidth - occluderWidth)/2 + ballRadius + occluderWidth*ball_x
+            // var ball_Y = 50
+            var ball = Matter.Bodies.circle(ball_X, ball_Y, ballRadius, {
+            isStatic: true,
+            density: 0.04,
+            friction: 0.01,
+            frictionAir: 0.00001,
+            restitution: 0.3,
+            collisionFilter: {
+                category: ballCategory,
+            },
+            render: {
+                fillStyle: colorB,
+                strokeStyle: 'black',
+                lineWidth: 1
+            }
+        });
+            Composite.add(engine.world, [ball]);
+        }
+
+        var occluder = Bodies.rectangle(occluder_X, occluder_Y, occluderWidth, occluderHeight, {
+                isStatic: true,
+                collisionFilter: {
+                    mask: defaultCategory,
+                },
+                render: {
+                    fillStyle: colorA,
+                    visible: true
+                }
+            });
+
+        // add all of the bodies to the world
+        Composite.add(engine.world, [occluder]);
+
+        // run the renderer
+        Render.run(render);
+
+        // create runner
+        var runner = Runner.create();
+
+        // run the engine
+        Runner.run(runner, engine);
+        
+    </script>
+</html>
