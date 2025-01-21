@@ -1,0 +1,245 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","subject_id","study_id","session_id","practiceTestResult","view_history","rt","width","height","webaudio","browser","browser_version","mobile","os","fullscreen","vsync_rate","webcam","microphone","url","stimulus","response","runnerFPS","task","ball_X","obstacle_groundTruth_x","obstacle_groundTruth_y","stimulus_idx","trial_name","flipped","choice","timeLimit","question_order","comprehensionCheck"
+"true","false","[]","[]","[]","preload","0","766","0.0-0.0","","","","passed","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","instructions","1","2091","0.0-1.0","","","","passed","[{""page_index"":0,""viewing_time"":1323}]","1323","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","browser-check","2","3109","0.0-2.0","","","","passed","","","1912","1084","true","edge-chromium","130.0.0","false","Windows 10","true","59.95","false","false","","","","","","","","","","","","","","",""
+"","","","","","external-html","3","118635","0.0-3.0","","","","passed","","115268","","","","","","","","","","","","consent.html","","","","","","","","","","","","","",""
+"true","","","","","fullscreen","4","126546","0.0-4.0","","","","passed","","7399","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","browser-check","5","127549","0.0-5.0","","","","passed","","","1920","1200","true","edge-chromium","130.0.0","false","Windows 10","true","59.94","false","false","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","6","132508","0.0-6.0","","","","passed","","4958","","","","","","","","","","","","","<p><b>This experiment requires keyboard input.</b></p> 
+        <p><b>To ensure your response will be recorded successfully, please press 'Space' to continue.</b></p>
+        <p>If you can't proceed, you won't be able to complete this study.</p>
+        <p></p> <!-- Blank line -->
+        <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+        <style>
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","7","139140","0.0-7.0","","","","passed","","6630","","","","","","","","","","","","","<p><b>This experiment requires keyboard input.</b></p> 
+        <p><b>To ensure your response will be recorded successfully, please press the 'f' key to continue.</b></p>
+        <p>If you can't proceed, you won't be able to complete this study.</p>
+        <p></p> <!-- Blank line -->
+        <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press f to continue</p>
+        <style>
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>","f","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","8","140701","0.0-8.0","","","","passed","","1560","","","","","","","","","","","","","<p><b>This experiment requires keyboard input.</b></p> 
+        <p><b>To ensure your response will be recorded successfully, please press the 'j' key to continue.</b></p>
+        <p>If you can't proceed, you won't be able to complete this study.</p>
+        <p></p> <!-- Blank line -->
+        <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press j to continue</p>
+        <style>
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>","j","","","","","","","","","","","",""
+"","","","","","browser-check","9","141708","0.0-9.0","","","","passed","","","1920","1200","true","edge-chromium","130.0.0","false","Windows 10","true","59.98","false","false","","","","","","","","","","","","","","",""
+"","","","","","survey-text","10","154642","0.0-10.0","","","","passed","","12927","","","","","","","","","","","","","","{""prolificID"":""tyjtest""}","","","","","","","","","","","",""
+"","","","","","instructions","11","280402","0.0-11.0-0.0-0.0","","","","passed","[{""page_index"":0,""viewing_time"":64607},{""page_index"":1,""viewing_time"":29448},{""page_index"":2,""viewing_time"":12984},{""page_index"":3,""viewing_time"":18720}]","125759","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","12","302518","0.0-11.0-0.0-1.0","","","","passed","","21598","","","","","","","","","","","","","<br>Remember! After a ball falls, the screen will disappear, and you'll decide if the proposed position is where the hidden triangle was. <br>You will now practice this by watching a few videos and making decisions.<p>To respond:<br style=""margin-bottom: 5px; text-indent: -20px; padding-left: 20px;"">- Press <b style=""color: #12AD2B;"">J for Yes</b>, if you think the triangle is in the correct position.<br style=""margin-top: 0; text-indent: -20px; padding-left: 20px;"">- Press <b style=""color: orange;"">F for No</b>, if you think the triangle is not in the correct position.</p><p>In this practice round, there is no time limit. Focus on getting comfortable with the task first.<br>Press either J or F to begin your practice trials.</p><img src = ""YesOrNo_instruction.png"" style=""width: 65%;""></img>","f","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","13","305535","0.0-11.0-0.0-2.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","59.99999999999999","ballFalling_prac","416","464","296","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","14","307161","0.0-11.0-0.0-2.0-1.0","","","","passed","","1614","","","","","","","","","","","","","","j","","yesOrNo_prac_noTimed","","","","1","","","gt","NA","",""
+"","","","","","html-keyboard-response","15","310179","0.0-11.0-0.0-2.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.059999999999995","ballFalling_prac","441","414","302","5","fallScene","true","","","",""
+"","","","","","html-keyboard-response","16","312050","0.0-11.0-0.0-2.0-1.1","","","","passed","","1866","","","","","","","","","","","","","","j","","yesOrNo_prac_noTimed","","","","5","","","close gt","NA","",""
+"","","","","","html-keyboard-response","17","315062","0.0-11.0-0.0-2.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.0420000000007","ballFalling_prac","660","666","350","3","fallScene","false","","","",""
+"","","","","","html-keyboard-response","18","318011","0.0-11.0-0.0-2.0-1.2","","","","passed","","2947","","","","","","","","","","","","","","f","","yesOrNo_prac_noTimed","","","","3","","","wrong direction","NA","",""
+"","","","","","instructions","19","375994","0.0-11.0-0.0-3.0","","","","passed","[{""page_index"":0,""viewing_time"":44622},{""page_index"":1,""viewing_time"":13360}]","57982","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-button-response","20","386147","0.0-11.0-0.0-4.0","","","","passed","","9644","","","","","","","","","","","","","<p>To make sure you understood the task, we just have a <b>brief quiz</b> here.</p><p>If you need to review the instructions, click 'Previous'.</p><p>It's important to understand the task to do the study, so you have to pass the quiz to move to the study.</p>","1","","","","","","","","","","","",""
+"","","","","","survey-multi-choice","21","407155","0.0-11.0-1.0-0.0","","","","passed","","21007","","","","","","","","","","","","","","{""generalProcedure"":""Watch a video of a ball falling, some of it behind a gray screen. After each video, decide if the triangle is at the spot where the ball hit the triangle behind the screen. There is time limit for the response.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","22","413331","0.0-11.0-1.0-1.0","","","","passed","","6174","","","","","","","","","","","","","","{""checkBallHitObstacle"":""Yes.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","23","421691","0.0-11.0-1.0-2.0","","","","passed","","8359","","","","","","","","","","","","","","{""checkTriangleVisibility"":""No, the triangle is hidden behind the gray screen.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","24","429787","0.0-11.0-1.0-3.0","","","","passed","","8095","","","","","","","","","","","","","","{""checkTimedResponse"":""Your response will not be recorded, and the trial will move to the next one.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","25","444891","0.0-11.0-1.0-4.0","","","","passed","","15103","","","","","","","","","","","","","","{""checkTimeBlockNotice"":""Before every individual trial.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","26","453074","0.0-11.0-1.0-5.0","","","","passed","","8183","","","","","","","","","","","","","","{""checkTimeBlockSameness"":""No, the time limit changes for each trial within a block.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","27","486706","0.0-11.0-1.0-6.0","","","","passed","","33631","","","","","","","","","","","","","","{""checkTrianglePrecision"":""Yes. The proposed purple triangle is very close to the correct position, so I should choose 'Yes.'""}","","","","","","","","","","","[0]",""
+"","","","","","html-button-response","28","490690","0.0-11.0-2.0-0.0","","","","passed","","3983","","","","","","","","","","","","","<p>Oops! You did not pass the quiz.</p><p>You will now repeat the instructions and practice.</p>","0","","","","","","","","","","","","failed"
+"","","","","","instructions","29","510778","0.0-11.1-0.1-0.1","","","","passed","[{""page_index"":0,""viewing_time"":5855},{""page_index"":1,""viewing_time"":6608},{""page_index"":2,""viewing_time"":2488},{""page_index"":3,""viewing_time"":5136}]","20088","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","30","522613","0.0-11.1-0.1-1.1","","","","passed","","11324","","","","","","","","","","","","","<br>Remember! After a ball falls, the screen will disappear, and you'll decide if the proposed position is where the hidden triangle was. <br>You will now practice this by watching a few videos and making decisions.<p>To respond:<br style=""margin-bottom: 5px; text-indent: -20px; padding-left: 20px;"">- Press <b style=""color: #12AD2B;"">J for Yes</b>, if you think the triangle is in the correct position.<br style=""margin-top: 0; text-indent: -20px; padding-left: 20px;"">- Press <b style=""color: orange;"">F for No</b>, if you think the triangle is not in the correct position.</p><p>In this practice round, there is no time limit. Focus on getting comfortable with the task first.<br>Press either J or F to begin your practice trials.</p><img src = ""YesOrNo_instruction.png"" style=""width: 65%;""></img>","j","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","31","525618","0.0-11.1-0.1-2.1-0.3","","","","passed","","null","","","","","","","","","","","","","","null","60.0420000000007","ballFalling_prac","441","414","302","5","fallScene","true","","","",""
+"","","","","","html-keyboard-response","32","528667","0.0-11.1-0.1-2.1-1.3","","","","passed","","3045","","","","","","","","","","","","","","j","","yesOrNo_prac_noTimed","","","","5","","","close gt","NA","",""
+"","","","","","html-keyboard-response","33","531672","0.0-11.1-0.1-2.1-0.4","","","","passed","","null","","","","","","","","","","","","","","null","60.048000000002794","ballFalling_prac","416","464","296","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","34","533747","0.0-11.1-0.1-2.1-1.4","","","","passed","","2071","","","","","","","","","","","","","","j","","yesOrNo_prac_noTimed","","","","1","","","gt","NA","",""
+"","","","","","html-keyboard-response","35","536754","0.0-11.1-0.1-2.1-0.5","","","","passed","","null","","","","","","","","","","","","","","null","60.054000000001395","ballFalling_prac","660","666","350","3","fallScene","false","","","",""
+"","","","","","html-keyboard-response","36","538539","0.0-11.1-0.1-2.1-1.5","","","","passed","","1783","","","","","","","","","","","","","","f","","yesOrNo_prac_noTimed","","","","3","","","wrong direction","NA","",""
+"","","","","","instructions","37","559859","0.0-11.1-0.1-3.1","","","","passed","[{""page_index"":0,""viewing_time"":19822},{""page_index"":1,""viewing_time"":1496}]","21319","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-button-response","38","561435","0.0-11.1-0.1-4.1","","","","passed","","1069","","","","","","","","","","","","","<p>To make sure you understood the task, we just have a <b>brief quiz</b> here.</p><p>If you need to review the instructions, click 'Previous'.</p><p>It's important to understand the task to do the study, so you have to pass the quiz to move to the study.</p>","1","","","","","","","","","","","",""
+"","","","","","survey-multi-choice","39","567827","0.0-11.1-1.1-0.1","","","","passed","","6391","","","","","","","","","","","","","","{""generalProcedure"":""Watch a video of a ball falling, some of it behind a gray screen. After each video, decide if the triangle is at the spot where the ball hit the triangle behind the screen. There is time limit for the response.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","40","571955","0.0-11.1-1.1-1.1","","","","passed","","4127","","","","","","","","","","","","","","{""checkBallHitObstacle"":""Yes.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","41","577475","0.0-11.1-1.1-2.1","","","","passed","","5520","","","","","","","","","","","","","","{""checkTriangleVisibility"":""No, the triangle is hidden behind the gray screen.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","42","581411","0.0-11.1-1.1-3.1","","","","passed","","3935","","","","","","","","","","","","","","{""checkTimedResponse"":""Your response will not be recorded, and the trial will move to the next one.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","43","588787","0.0-11.1-1.1-4.1","","","","passed","","7375","","","","","","","","","","","","","","{""checkTimeBlockNotice"":""At the beginning of each block.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","44","593027","0.0-11.1-1.1-5.1","","","","passed","","4239","","","","","","","","","","","","","","{""checkTimeBlockSameness"":""Yes, the time limit is the same for all trials within a block.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","45","597323","0.0-11.1-1.1-6.1","","","","passed","","4295","","","","","","","","","","","","","","{""checkTrianglePrecision"":""Yes. The proposed purple triangle is very close to the correct position, so I should choose 'Yes.'""}","","","","","","","","","","","[0]",""
+"","","","","","html-button-response","46","601651","0.0-11.1-2.1-0.1","","","","passed","","4327","","","","","","","","","","","","","<p>Oops! You did not pass the quiz.</p><p>You will now repeat the instructions and practice.</p>","0","","","","","","","","","","","","failed"
+"","","","","","instructions","47","605227","0.0-11.2-0.2-0.2","","","","passed","[{""page_index"":0,""viewing_time"":1271},{""page_index"":1,""viewing_time"":304},{""page_index"":2,""viewing_time"":1024},{""page_index"":3,""viewing_time"":976}]","3576","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","48","608723","0.0-11.2-0.2-1.2","","","","passed","","2988","","","","","","","","","","","","","<br>Remember! After a ball falls, the screen will disappear, and you'll decide if the proposed position is where the hidden triangle was. <br>You will now practice this by watching a few videos and making decisions.<p>To respond:<br style=""margin-bottom: 5px; text-indent: -20px; padding-left: 20px;"">- Press <b style=""color: #12AD2B;"">J for Yes</b>, if you think the triangle is in the correct position.<br style=""margin-top: 0; text-indent: -20px; padding-left: 20px;"">- Press <b style=""color: orange;"">F for No</b>, if you think the triangle is not in the correct position.</p><p>In this practice round, there is no time limit. Focus on getting comfortable with the task first.<br>Press either J or F to begin your practice trials.</p><img src = ""YesOrNo_instruction.png"" style=""width: 65%;""></img>","j","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","49","611726","0.0-11.2-0.2-2.2-0.6","","","","passed","","null","","","","","","","","","","","","","","null","60.029999999999994","ballFalling_prac","416","464","296","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","50","613188","0.0-11.2-0.2-2.2-1.6","","","","passed","","1459","","","","","","","","","","","","","","j","","yesOrNo_prac_noTimed","","","","1","","","gt","NA","",""
+"","","","","","html-keyboard-response","51","616199","0.0-11.2-0.2-2.2-0.7","","","","passed","","null","","","","","","","","","","","","","","null","60.048000000002794","ballFalling_prac","660","666","350","3","fallScene","false","","","",""
+"","","","","","html-keyboard-response","52","620827","0.0-11.2-0.2-2.2-1.7","","","","passed","","4625","","","","","","","","","","","","","","f","","yesOrNo_prac_noTimed","","","","3","","","wrong direction","NA","",""
+"","","","","","html-keyboard-response","53","623838","0.0-11.2-0.2-2.2-0.8","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling_prac","441","414","302","5","fallScene","true","","","",""
+"","","","","","html-keyboard-response","54","624980","0.0-11.2-0.2-2.2-1.8","","","","passed","","1140","","","","","","","","","","","","","","j","","yesOrNo_prac_noTimed","","","","5","","","close gt","NA","",""
+"","","","","","instructions","55","628042","0.0-11.2-0.2-3.2","","","","passed","[{""page_index"":0,""viewing_time"":2149},{""page_index"":1,""viewing_time"":912}]","3061","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-button-response","56","629842","0.0-11.2-0.2-4.2","","","","passed","","1284","","","","","","","","","","","","","<p>To make sure you understood the task, we just have a <b>brief quiz</b> here.</p><p>If you need to review the instructions, click 'Previous'.</p><p>It's important to understand the task to do the study, so you have to pass the quiz to move to the study.</p>","1","","","","","","","","","","","",""
+"","","","","","survey-multi-choice","57","771643","0.0-11.2-1.2-0.2","","","","passed","","141800","","","","","","","","","","","","","","{""generalProcedure"":""Watch a video of a ball falling, some of it behind a gray screen. After each video, decide if the triangle is at the spot where the ball hit the triangle behind the screen. There is time limit for the response.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","58","777434","0.0-11.2-1.2-1.2","","","","passed","","5791","","","","","","","","","","","","","","{""checkBallHitObstacle"":""Yes.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","59","808290","0.0-11.2-1.2-2.2","","","","passed","","30855","","","","","","","","","","","","","","{""checkTriangleVisibility"":""No, the triangle is hidden behind the gray screen.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","60","823250","0.0-11.2-1.2-3.2","","","","passed","","14959","","","","","","","","","","","","","","{""checkTimedResponse"":""Your response will not be recorded, and the trial will move to the next one.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","61","824970","0.0-11.2-1.2-4.2","","","","passed","","1719","","","","","","","","","","","","","","{""checkTimeBlockNotice"":""At the beginning of each block.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","62","828234","0.0-11.2-1.2-5.2","","","","passed","","3263","","","","","","","","","","","","","","{""checkTimeBlockSameness"":""Yes, the time limit is the same for all trials within a block.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","63","856122","0.0-11.2-1.2-6.2","","","","passed","","27888","","","","","","","","","","","","","","{""checkTrianglePrecision"":""No. The proposed purple triangle is not in the correct position because it doesn't match the location of the white triangle exactly.""}","","","","","","","","","","","[0]",""
+"","","","","","instructions","64","887218","0.0-12.0-0.0","","","","passed","[{""page_index"":0,""viewing_time"":31095}]","31095","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","65","893133","0.0-12.0-1.0","","","","passed","","5914","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","66","896144","0.0-12.0-2.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling_prac","584","536","296","1","fallScene","true","","","",""
+"","","","","","html-keyboard-response","67","898155","0.0-12.0-2.0-1.0","","","","passed","","2002","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","1","","","close gt","3000","",""
+"","","","","","html-keyboard-response","68","901160","0.0-12.0-2.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.042000000004194","ballFalling_prac","416","464","296","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","69","902611","0.0-12.0-2.0-1.1","","","","passed","","1448","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","1","","","far gt","3000","",""
+"","","","","","html-keyboard-response","70","905621","0.0-12.0-2.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.035999999998594","ballFalling_prac","660","610","263","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","71","907308","0.0-12.0-2.0-1.2","","","","passed","","1683","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","4","","","gt","3000","",""
+"","","","","","html-keyboard-response","72","909572","0.0-12.0-3.0","","","","passed","","2263","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","73","912578","0.0-12.0-4.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","60.048000000002794","ballFalling_prac","441","500","317","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","74","913582","0.0-12.0-4.0-1.0","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo_prac","","","","6","","","gt","1000","",""
+"","","","","","html-keyboard-response","75","916590","0.0-12.0-4.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.04799999999581","ballFalling_prac","340","334","350","3","fallScene","true","","","",""
+"","","","","","html-keyboard-response","76","917596","0.0-12.0-4.0-1.1","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo_prac","","","","3","","","close gt","1000","",""
+"","","","","","html-keyboard-response","77","920601","0.0-12.0-4.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.035999999998594","ballFalling_prac","660","610","263","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","78","921615","0.0-12.0-4.0-1.2","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo_prac","","","","4","","","far gt","1000","",""
+"","","","","","instructions","79","965106","0.0-12.0-5.0","","","","passed","[{""page_index"":0,""viewing_time"":43491}]","43491","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","80","968289","0.0-12.0-6.0","","","","passed","","3183","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice Test BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","81","971292","0.0-12.0-7.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","59.04129999999726","ballFalling_prac","559","586","302","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","82","972298","0.0-12.0-7.0-1.0","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo_prac","","","","5","","","gt","1000","",""
+"","","","","","html-keyboard-response","83","975306","0.0-12.0-7.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.042000000004194","ballFalling_prac","340","390","263","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","84","976013","0.0-12.0-7.0-1.1","","","","passed","","704","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","4","","","far gt","1000","",""
+"","","","","","html-keyboard-response","85","979025","0.0-12.0-7.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling_prac","441","500","317","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","86","979722","0.0-12.0-7.0-1.2","","","","passed","","693","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","6","","","close gt","1000","",""
+"","","","","","html-keyboard-response","87","1137245","0.0-12.0-8.0","","","","passed","","157521","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice Test BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","88","1140255","0.0-12.0-9.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","60.035999999998594","ballFalling_prac","416","365","249","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","89","1141859","0.0-12.0-9.0-1.0","","","","passed","","1600","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","2","","","gt","3000","",""
+"","","","","","html-keyboard-response","90","1144862","0.0-12.0-9.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling_prac","559","586","302","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","91","1146035","0.0-12.0-9.0-1.1","","","","passed","","1162","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","5","","","far gt","3000","",""
+"","","","","","html-keyboard-response","92","1149043","0.0-12.0-9.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling_prac","340","390","263","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","93","1150228","0.0-12.0-9.0-1.2","","","","passed","","1182","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","4","","","close gt","3000","",""
+"","","","","","instructions","94","1166122","0.0-13.0","","","","passed","[{""page_index"":0,""viewing_time"":15892}]","15893","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","95","1171356","0.0-14.0","","","","passed","","5233","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","96","1174366","0.0-15.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","97","1176563","0.0-15.0-1.0","","","","passed","","2195","","","","","","","","","","","","","","j","","yesOrNo","","","","2","","","gt","3000","",""
+"","","","","","html-keyboard-response","98","1179567","0.0-15.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","false","","","",""
+"","","","","","html-keyboard-response","99","1180979","0.0-15.0-1.1","","","","passed","","1410","","","","","","","","","","","","","","j","","yesOrNo","","","","3","","","lp","3000","",""
+"","","","","","html-keyboard-response","100","1183989","0.0-15.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling","500","453.67114317029973","210.33","5","fallScene","true","","","",""
+"","","","","","html-keyboard-response","101","1185363","0.0-15.0-1.2","","","","passed","","1371","","","","","","","","","","","","","","f","","yesOrNo","","","","5","","","lp","3000","",""
+"","","","","","html-keyboard-response","102","1187372","0.0-16.0","","","","passed","","2008","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","103","1190378","0.0-17.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","true","","","",""
+"","","","","","html-keyboard-response","104","1191395","0.0-17.0-1.0","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo","","","","9","","","lp","1000","",""
+"","","","","","html-keyboard-response","105","1194398","0.0-17.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","106","1195124","0.0-17.0-1.1","","","","passed","","722","","","","","","","","","","","","","","f","","yesOrNo","","","","4","","","mid","1000","",""
+"","","","","","html-keyboard-response","107","1198128","0.0-17.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.05399999999441","ballFalling","500","553.4711431702997","282.51","7","fallScene","false","","","",""
+"","","","","","html-keyboard-response","108","1199136","0.0-17.0-1.2","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo","","","","7","","","gt","1000","",""
+"","","","","","html-keyboard-response","109","1204047","0.0-18.0","","","","passed","","4909","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 3</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","110","1207056","0.0-19.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","60.029999999999994","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","true","","","",""
+"","","","","","html-keyboard-response","111","1208100","0.0-19.0-1.0","","","","passed","","1042","","","","","","","","","","","","","","j","","yesOrNo","","","","1","","","gt","3000","",""
+"","","","","","html-keyboard-response","112","1211102","0.0-19.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.04799999998883","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","false","","","",""
+"","","","","","html-keyboard-response","113","1212475","0.0-19.0-1.1","","","","passed","","1370","","","","","","","","","","","","","","f","","yesOrNo","","","","9","","","lp","3000","",""
+"","","","","","html-keyboard-response","114","1215479","0.0-19.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.048000000002794","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","115","1216595","0.0-19.0-1.2","","","","passed","","1107","","","","","","","","","","","","","","f","","yesOrNo","","","","1","","","mid","3000","",""
+"","","","","","html-keyboard-response","116","1217964","0.0-20.0","","","","passed","","1368","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 4</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","117","1220966","0.0-21.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling","500","479.92114317029973","330.87","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","118","1221884","0.0-21.0-1.0","","","","passed","","915","","","","","","","","","","","","","","f","","yesOrNo","","","","6","","","mid","1000","",""
+"","","","","","html-keyboard-response","119","1224899","0.0-21.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","true","","","",""
+"","","","","","html-keyboard-response","120","1225883","0.0-21.0-1.1","","","","passed","","983","","","","","","","","","","","","","","f","","yesOrNo","","","","9","","","gt","1000","",""
+"","","","","","html-keyboard-response","121","1228889","0.0-21.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.03599999999162","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","false","","","",""
+"","","","","","html-keyboard-response","122","1229773","0.0-21.0-1.2","","","","passed","","881","","","","","","","","","","","","","","f","","yesOrNo","","","","12","","","mid","1000","",""
+"","","","","","html-keyboard-response","123","1231156","0.0-22.0","","","","passed","","1382","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 5</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","124","1234159","0.0-23.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","60.03599999999162","ballFalling","500","553.4711431702997","282.51","7","fallScene","true","","","",""
+"","","","","","html-keyboard-response","125","1236443","0.0-23.0-1.0","","","","passed","","2281","","","","","","","","","","","","","","f","","yesOrNo","","","","7","","","mid","3000","",""
+"","","","","","html-keyboard-response","126","1239447","0.0-23.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","false","","","",""
+"","","","","","html-keyboard-response","127","1240884","0.0-23.0-1.1","","","","passed","","1427","","","","","","","","","","","","","","f","","yesOrNo","","","","10","","","mid","3000","",""
+"","","","","","html-keyboard-response","128","1243899","0.0-23.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.04199999999721","ballFalling","500","510.8711431702997","369.03","8","fallScene","true","","","",""
+"","","","","","html-keyboard-response","129","1245195","0.0-23.0-1.2","","","","passed","","1294","","","","","","","","","","","","","","f","","yesOrNo","","","","8","","","gt","3000","",""
+"","","","","","html-keyboard-response","130","1247547","0.0-24.0","","","","passed","","2352","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 6</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","131","1250554","0.0-25.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","60.029999999999994","ballFalling","500","453.67114317029973","210.33","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","132","1251516","0.0-25.0-1.0","","","","passed","","958","","","","","","","","","","","","","","j","","yesOrNo","","","","5","","","mid","1000","",""
+"","","","","","html-keyboard-response","133","1254524","0.0-25.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","60.03600000000559","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","true","","","",""
+"","","","","","html-keyboard-response","134","1255526","0.0-25.0-1.1","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo","","","","2","","","lp","1000","",""
+"","","","","","html-keyboard-response","135","1258529","0.0-25.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","60.03599999999162","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","false","","","",""
+"","","","","","html-keyboard-response","136","1259292","0.0-25.0-1.2","","","","passed","","760","","","","","","","","","","","","","","f","","yesOrNo","","","","11","","","mid","1000","",""
+"","","","","","survey-text","137","1299218","0.0-26.0","","","","passed","","39919","","","","","","","","","","","","","","{""Summary"":""balls and triangles""}","","","","","","","","","","","",""
+"","","","","","survey-text","138","1306098","0.0-27.0","","","","passed","","6878","","","","","","","","","","","","","","{""Comments"":""ok""}","","","","","","","","","","","",""

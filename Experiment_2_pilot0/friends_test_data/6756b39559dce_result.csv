@@ -1,0 +1,516 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","subject_id","study_id","session_id","practiceTestResult","view_history","rt","width","height","webaudio","browser","browser_version","mobile","os","fullscreen","vsync_rate","webcam","microphone","url","stimulus","response","runnerFPS","task","ball_X","obstacle_groundTruth_x","obstacle_groundTruth_y","stimulus_idx","trial_name","flipped","choice","timeLimit","question_order","practiceTest"
+"true","false","[]","[]","[]","preload","0","40","0.0-0.0","","","","passed","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","instructions","1","1087","0.0-1.0","","","","passed","[{""page_index"":0,""viewing_time"":1046}]","1046","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","browser-check","2","3090","0.0-2.0","","","","passed","","","1146","728","true","safari","17.4.1","false","Mac OS","true","30.03","true","true","","","","","","","","","","","","","","",""
+"","","","","","external-html","3","6991","0.0-3.0","","","","passed","","3857","","","","","","","","","","","","consent.html","","","","","","","","","","","","","",""
+"true","","","","","fullscreen","4","15771","0.0-4.0","","","","passed","","8277","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","browser-check","5","17775","0.0-5.0","","","","passed","","","1920","1080","true","safari","17.4.1","false","Mac OS","true","29.99","true","true","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","6","21435","0.0-6.0","","","","passed","","3658","","","","","","","","","","","","","<p><b>This experiment requires keyboard input.</b></p> 
+        <p><b>To ensure your response will be recorded successfully, please press 'Space' to continue.</b></p>
+        <p>If you can't proceed, you won't be able to complete this study.</p>
+        <p></p> <!-- Blank line -->
+        <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+        <style>
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","7","23528","0.0-7.0","","","","passed","","2091","","","","","","","","","","","","","<p><b>This experiment requires keyboard input.</b></p> 
+        <p><b>To ensure your response will be recorded successfully, please press the 'f' key to continue.</b></p>
+        <p>If you can't proceed, you won't be able to complete this study.</p>
+        <p></p> <!-- Blank line -->
+        <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press f to continue</p>
+        <style>
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>","f","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","8","24449","0.0-8.0","","","","passed","","919","","","","","","","","","","","","","<p><b>This experiment requires keyboard input.</b></p> 
+        <p><b>To ensure your response will be recorded successfully, please press the 'j' key to continue.</b></p>
+        <p>If you can't proceed, you won't be able to complete this study.</p>
+        <p></p> <!-- Blank line -->
+        <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press j to continue</p>
+        <style>
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>","j","","","","","","","","","","","",""
+"","","","","","browser-check","9","26425","0.0-9.0","","","","passed","","","1920","1080","true","safari","17.4.1","false","Mac OS","true","30.41","true","true","","","","","","","","","","","","","","",""
+"","","","","","survey-text","10","34330","0.0-10.0","","","","passed","","7882","","","","","","","","","","","","","","{""prolificID"":""cindyTest_online_0""}","","","","","","","","","","","",""
+"","","","","","instructions","11","86866","0.0-11.0-0.0-0.0","","","","passed","[{""page_index"":0,""viewing_time"":20650},{""page_index"":1,""viewing_time"":13655},{""page_index"":2,""viewing_time"":10777},{""page_index"":3,""viewing_time"":7452}]","52534","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","12","98900","0.0-11.0-0.0-1.0","","","","passed","","11529","","","","","","","","","","","","","<br>Remember! After a ball falls, the screen will disappear, and you'll decide if the proposed position is where the hidden triangle was. <br>You will now practice this by watching a few videos and making decisions.<p>To respond:<br style=""margin-bottom: 5px; text-indent: -20px; padding-left: 20px;"">- Press <b style=""color: #12AD2B;"">J for Yes</b>, if you think the triangle is in the correct position.<br style=""margin-top: 0; text-indent: -20px; padding-left: 20px;"">- Press <b style=""color: orange;"">F for No</b>, if you think the triangle is not in the correct position.</p><p>In this practice round, there is no time limit. Focus on getting comfortable with the task first.<br>Press either J or F to begin your practice trials.</p><img src = ""YesOrNo_instruction.png"" style=""width: 65%;""></img>","f","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","13","101910","0.0-11.0-0.0-2.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","59.99999999999999","ballFalling_prac","660","666","350","3","fallScene","false","","","",""
+"","","","","","html-keyboard-response","14","103230","0.0-11.0-0.0-2.0-1.0","","","","passed","","1314","","","","","","","","","","","","","","f","","yesOrNo_prac_noTimed","","","","3","","","wrong direction","NA","",""
+"","","","","","html-keyboard-response","15","106233","0.0-11.0-0.0-2.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","441","414","302","5","fallScene","true","","","",""
+"","","","","","html-keyboard-response","16","107530","0.0-11.0-0.0-2.0-1.1","","","","passed","","1294","","","","","","","","","","","","","","f","","yesOrNo_prac_noTimed","","","","5","","","close gt","NA","",""
+"","","","","","html-keyboard-response","17","110531","0.0-11.0-0.0-2.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","416","464","296","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","18","112685","0.0-11.0-0.0-2.0-1.2","","","","passed","","2149","","","","","","","","","","","","","","j","","yesOrNo_prac_noTimed","","","","1","","","gt","NA","",""
+"","","","","","instructions","19","147286","0.0-11.0-0.0-3.0","","","","passed","[{""page_index"":0,""viewing_time"":20892},{""page_index"":1,""viewing_time"":13708}]","34600","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-button-response","20","152895","0.0-11.0-0.0-4.0","","","","passed","","5107","","","","","","","","","","","","","<p>To make sure you understood the task, we just have a <b>brief quiz</b> here.</p><p>If you need to review the instructions, click 'Previous'.</p><p>It's important to understand the task to do the study, so you have to pass the quiz to move to the study.</p>","1","","","","","","","","","","","",""
+"","","","","","survey-multi-choice","21","161472","0.0-11.0-1.0-0.0","","","","passed","","8576","","","","","","","","","","","","","","{""generalProcedure"":""Watch a video of a ball falling, some of it behind a gray screen. After each video, decide if the triangle is at the spot where the ball hit the triangle behind the screen. There is time limit for the response.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","22","164908","0.0-11.0-1.0-1.0","","","","passed","","3435","","","","","","","","","","","","","","{""checkBallHitObstacle"":""Yes.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","23","170074","0.0-11.0-1.0-2.0","","","","passed","","5165","","","","","","","","","","","","","","{""checkTriangleVisibility"":""No, the triangle is hidden behind the gray screen.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","24","177057","0.0-11.0-1.0-3.0","","","","passed","","6981","","","","","","","","","","","","","","{""checkTimedResponse"":""Your response will not be recorded, and the trial will move to the next one.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","25","187190","0.0-11.0-1.0-4.0","","","","passed","","10132","","","","","","","","","","","","","","{""checkTimeBlockNotice"":""At the beginning of each block.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","26","191142","0.0-11.0-1.0-5.0","","","","passed","","3951","","","","","","","","","","","","","","{""checkTimeBlockSameness"":""Yes, the time limit is the same for all trials within a block.""}","","","","","","","","","","","[0]",""
+"","","","","","survey-multi-choice","27","201161","0.0-11.0-1.0-6.0","","","","passed","","10018","","","","","","","","","","","","","","{""checkTrianglePrecision"":""No. The proposed purple triangle is not in the correct position because it doesn't match the location of the white triangle exactly.""}","","","","","","","","","","","[0]",""
+"","","","","","instructions","28","211357","0.0-12.0-0.0","","","","passed","[{""page_index"":0,""viewing_time"":10194}]","10195","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","29","213539","0.0-12.0-1.0","","","","passed","","2181","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","30","216541","0.0-12.0-2.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","416","464","296","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","31","219515","0.0-12.0-2.0-1.0","","","","passed","","2969","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","1","","","far gt","3000","",""
+"","","","","","html-keyboard-response","32","222522","0.0-12.0-2.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling_prac","660","610","263","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","33","223618","0.0-12.0-2.0-1.1","","","","passed","","1091","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","4","","","gt","3000","",""
+"","","","","","html-keyboard-response","34","226621","0.0-12.0-2.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling_prac","584","536","296","1","fallScene","true","","","",""
+"","","","","","html-keyboard-response","35","228541","0.0-12.0-2.0-1.2","","","","passed","","1915","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","1","","","close gt","3000","",""
+"","","","","","html-keyboard-response","36","230792","0.0-12.0-3.0","","","","passed","","2248","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","37","233797","0.0-12.0-4.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling_prac","660","610","263","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","38","234801","0.0-12.0-4.0-1.0","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo_prac","","","","4","","","far gt","1000","",""
+"","","","","","html-keyboard-response","39","237805","0.0-12.0-4.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","441","500","317","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","40","238683","0.0-12.0-4.0-1.1","","","","passed","","875","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","6","","","gt","1000","",""
+"","","","","","html-keyboard-response","41","241687","0.0-12.0-4.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","340","334","350","3","fallScene","true","","","",""
+"","","","","","html-keyboard-response","42","242488","0.0-12.0-4.0-1.2","","","","passed","","794","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","3","","","close gt","1000","",""
+"","","","","","instructions","43","247996","0.0-12.0-5.0","","","","passed","[{""page_index"":0,""viewing_time"":5507}]","5508","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","44","252778","0.0-12.0-6.0","","","","passed","","4780","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice Test BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","45","255782","0.0-12.0-7.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","340","390","263","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","46","256629","0.0-12.0-7.0-1.0","","","","passed","","842","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","4","","","far gt","1000","",""
+"","","","","","html-keyboard-response","47","259633","0.0-12.0-7.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","441","500","317","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","48","260478","0.0-12.0-7.0-1.1","","","","passed","","838","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","6","","","close gt","1000","",""
+"","","","","","html-keyboard-response","49","263480","0.0-12.0-7.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling_prac","559","586","302","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","50","264264","0.0-12.0-7.0-1.2","","","","passed","","781","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","5","","","gt","1000","",""
+"","","","","","html-keyboard-response","51","266767","0.0-12.0-8.0","","","","passed","","2502","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice Test BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","52","269771","0.0-12.0-9.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","416","365","249","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","53","272776","0.0-12.0-9.0-1.0","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo_prac","","","","2","","","gt","3000","",""
+"","","","","","html-keyboard-response","54","275780","0.0-12.0-9.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","340","390","263","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","55","278785","0.0-12.0-9.0-1.1","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo_prac","","","","4","","","close gt","3000","",""
+"","","","","","html-keyboard-response","56","281789","0.0-12.0-9.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","559","586","302","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","57","284794","0.0-12.0-9.0-1.2","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo_prac","","","","5","","","far gt","3000","",""
+"","","","","","html-button-response","58","287553","0.0-12.0-10.0-0.0","","","","passed","","2757","","","","","","","","","","","","","<p>Oops! You did not pass the practice test. You missed 3 out of 6 trials.</p><p>You will now repeat the practice and the test.</p>","0","","","","","","","","","","","","failed"
+"","","","","","instructions","59","288664","0.0-12.1-0.1","","","","passed","[{""page_index"":0,""viewing_time"":1110}]","1111","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","60","290404","0.0-12.1-1.1","","","","passed","","1739","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","61","293409","0.0-12.1-2.1-0.3","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","416","464","296","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","62","294569","0.0-12.1-2.1-1.3","","","","passed","","1154","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","1","","","far gt","3000","",""
+"","","","","","html-keyboard-response","63","297572","0.0-12.1-2.1-0.4","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","584","536","296","1","fallScene","true","","","",""
+"","","","","","html-keyboard-response","64","298760","0.0-12.1-2.1-1.4","","","","passed","","1183","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","1","","","close gt","3000","",""
+"","","","","","html-keyboard-response","65","301763","0.0-12.1-2.1-0.5","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","660","610","263","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","66","302272","0.0-12.1-2.1-1.5","","","","passed","","505","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","4","","","gt","3000","",""
+"","","","","","html-keyboard-response","67","303070","0.0-12.1-3.1","","","","passed","","795","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","68","306074","0.0-12.1-4.1-0.3","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","340","334","350","3","fallScene","true","","","",""
+"","","","","","html-keyboard-response","69","307080","0.0-12.1-4.1-1.3","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo_prac","","","","3","","","close gt","1000","",""
+"","","","","","html-keyboard-response","70","310084","0.0-12.1-4.1-0.4","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","660","610","263","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","71","310699","0.0-12.1-4.1-1.4","","","","passed","","611","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","4","","","far gt","1000","",""
+"","","","","","html-keyboard-response","72","313700","0.0-12.1-4.1-0.5","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling_prac","441","500","317","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","73","314546","0.0-12.1-4.1-1.5","","","","passed","","841","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","6","","","gt","1000","",""
+"","","","","","instructions","74","323097","0.0-12.1-5.1","","","","passed","[{""page_index"":0,""viewing_time"":8550}]","8551","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","75","325341","0.0-12.1-6.1","","","","passed","","2242","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice Test BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","76","328345","0.0-12.1-7.1-0.3","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","559","586","302","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","77","329125","0.0-12.1-7.1-1.3","","","","passed","","776","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","5","","","gt","1000","",""
+"","","","","","html-keyboard-response","78","332129","0.0-12.1-7.1-0.4","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","441","500","317","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","79","332817","0.0-12.1-7.1-1.4","","","","passed","","683","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","6","","","close gt","1000","",""
+"","","","","","html-keyboard-response","80","335820","0.0-12.1-7.1-0.5","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling_prac","340","390","263","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","81","336695","0.0-12.1-7.1-1.5","","","","passed","","871","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","4","","","far gt","1000","",""
+"","","","","","html-keyboard-response","82","338194","0.0-12.1-8.1","","","","passed","","1497","","","","","","","","","","","","","<p><span style=""font-size:40px;"">Practice Test BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","83","341196","0.0-12.1-9.1-0.3","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling_prac","559","586","302","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","84","341915","0.0-12.1-9.1-1.3","","","","passed","","716","","","","","","","","","","","","","","f","","yesOrNo_prac","","","","5","","","far gt","3000","",""
+"","","","","","html-keyboard-response","85","344917","0.0-12.1-9.1-0.4","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling_prac","416","365","249","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","86","345745","0.0-12.1-9.1-1.4","","","","passed","","822","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","2","","","gt","3000","",""
+"","","","","","html-keyboard-response","87","348748","0.0-12.1-9.1-0.5","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling_prac","340","390","263","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","88","349551","0.0-12.1-9.1-1.5","","","","passed","","800","","","","","","","","","","","","","","j","","yesOrNo_prac","","","","4","","","close gt","3000","",""
+"","","","","","instructions","89","360865","0.0-13.0","","","","passed","[{""page_index"":0,""viewing_time"":11314}]","11314","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","90","363084","0.0-14.0","","","","passed","","2218","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","91","366087","0.0-15.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","true","","","",""
+"","","","","","html-keyboard-response","92","367121","0.0-15.0-1.0","","","","passed","","1030","","","","","","","","","","","","","","j","","yesOrNo","","","","2","","","gt","3000","",""
+"","","","","","html-keyboard-response","93","370126","0.0-15.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","94","371987","0.0-15.0-1.1","","","","passed","","1858","","","","","","","","","","","","","","f","","yesOrNo","","","","1","","","lp","3000","",""
+"","","","","","html-keyboard-response","95","374991","0.0-15.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","96","375865","0.0-15.0-1.2","","","","passed","","869","","","","","","","","","","","","","","f","","yesOrNo","","","","2","","","lp","3000","",""
+"","","","","","html-keyboard-response","97","378868","0.0-15.0-0.3","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","true","","","",""
+"","","","","","html-keyboard-response","98","381220","0.0-15.0-1.3","","","","passed","","2348","","","","","","","","","","","","","","j","","yesOrNo","","","","11","","","lp","3000","",""
+"","","","","","html-keyboard-response","99","384224","0.0-15.0-0.4","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","100","385040","0.0-15.0-1.4","","","","passed","","812","","","","","","","","","","","","","","f","","yesOrNo","","","","2","","","lp","3000","",""
+"","","","","","html-keyboard-response","101","388043","0.0-15.0-0.5","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","500","510.8711431702997","369.03","8","fallScene","false","","","",""
+"","","","","","html-keyboard-response","102","388817","0.0-15.0-1.5","","","","passed","","770","","","","","","","","","","","","","","f","","yesOrNo","","","","8","","","lp","3000","",""
+"","","","","","html-keyboard-response","103","391821","0.0-15.0-0.6","","","","passed","","null","","","","","","","","","","","","","","null","30.12","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","true","","","",""
+"","","","","","html-keyboard-response","104","394192","0.0-15.0-1.6","","","","passed","","2368","","","","","","","","","","","","","","j","","yesOrNo","","","","12","","","gt","3000","",""
+"","","","","","html-keyboard-response","105","397196","0.0-15.0-0.7","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","true","","","",""
+"","","","","","html-keyboard-response","106","398941","0.0-15.0-1.7","","","","passed","","1741","","","","","","","","","","","","","","f","","yesOrNo","","","","12","","","mid","3000","",""
+"","","","","","html-keyboard-response","107","401944","0.0-15.0-0.8","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","false","","","",""
+"","","","","","html-keyboard-response","108","404240","0.0-15.0-1.8","","","","passed","","2289","","","","","","","","","","","","","","j","","yesOrNo","","","","3","","","mid","3000","",""
+"","","","","","html-keyboard-response","109","407243","0.0-15.0-0.9","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","false","","","",""
+"","","","","","html-keyboard-response","110","409837","0.0-15.0-1.9","","","","passed","","2590","","","","","","","","","","","","","","f","","yesOrNo","","","","11","","","lp","3000","",""
+"","","","","","html-keyboard-response","111","412839","0.0-15.0-0.10","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","true","","","",""
+"","","","","","html-keyboard-response","112","413606","0.0-15.0-1.10","","","","passed","","765","","","","","","","","","","","","","","f","","yesOrNo","","","","9","","","lp","3000","",""
+"","","","","","html-keyboard-response","113","416609","0.0-15.0-0.11","","","","passed","","null","","","","","","","","","","","","","","null","31.961","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","false","","","",""
+"","","","","","html-keyboard-response","114","417623","0.0-15.0-1.11","","","","passed","","1011","","","","","","","","","","","","","","j","","yesOrNo","","","","10","","","lp","3000","",""
+"","","","","","html-keyboard-response","115","420626","0.0-15.0-0.12","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","true","","","",""
+"","","","","","html-keyboard-response","116","421424","0.0-15.0-1.12","","","","passed","","796","","","","","","","","","","","","","","j","","yesOrNo","","","","1","","","gt","3000","",""
+"","","","","","html-keyboard-response","117","424428","0.0-15.0-0.13","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","true","","","",""
+"","","","","","html-keyboard-response","118","426433","0.0-15.0-1.13","","","","passed","","1999","","","","","","","","","","","","","","f","","yesOrNo","","","","3","","","lp","3000","",""
+"","","","","","html-keyboard-response","119","429437","0.0-15.0-0.14","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","true","","","",""
+"","","","","","html-keyboard-response","120","431041","0.0-15.0-1.14","","","","passed","","1602","","","","","","","","","","","","","","f","","yesOrNo","","","","1","","","mid","3000","",""
+"","","","","","html-keyboard-response","121","434044","0.0-15.0-0.15","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","500","510.8711431702997","369.03","8","fallScene","true","","","",""
+"","","","","","html-keyboard-response","122","434903","0.0-15.0-1.15","","","","passed","","856","","","","","","","","","","","","","","f","","yesOrNo","","","","8","","","gt","3000","",""
+"","","","","","html-keyboard-response","123","437906","0.0-15.0-0.16","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","553.4711431702997","282.51","7","fallScene","false","","","",""
+"","","","","","html-keyboard-response","124","439639","0.0-15.0-1.16","","","","passed","","1731","","","","","","","","","","","","","","f","","yesOrNo","","","","7","","","lp","3000","",""
+"","","","","","html-keyboard-response","125","442641","0.0-15.0-0.17","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","126","443558","0.0-15.0-1.17","","","","passed","","913","","","","","","","","","","","","","","j","","yesOrNo","","","","4","","","gt","3000","",""
+"","","","","","html-keyboard-response","127","446562","0.0-15.0-0.18","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","128","447813","0.0-15.0-1.18","","","","passed","","1245","","","","","","","","","","","","","","j","","yesOrNo","","","","4","","","lp","3000","",""
+"","","","","","html-keyboard-response","129","450816","0.0-15.0-0.19","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","453.67114317029973","210.33","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","130","451556","0.0-15.0-1.19","","","","passed","","736","","","","","","","","","","","","","","f","","yesOrNo","","","","5","","","lp","3000","",""
+"","","","","","html-keyboard-response","131","454561","0.0-15.0-0.20","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","479.92114317029973","330.87","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","132","456798","0.0-15.0-1.20","","","","passed","","2234","","","","","","","","","","","","","","j","","yesOrNo","","","","6","","","mid","3000","",""
+"","","","","","html-keyboard-response","133","459802","0.0-15.0-0.21","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","true","","","",""
+"","","","","","html-keyboard-response","134","462074","0.0-15.0-1.21","","","","passed","","2269","","","","","","","","","","","","","","j","","yesOrNo","","","","11","","","gt","3000","",""
+"","","","","","html-keyboard-response","135","465075","0.0-15.0-0.22","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","true","","","",""
+"","","","","","html-keyboard-response","136","466241","0.0-15.0-1.22","","","","passed","","1163","","","","","","","","","","","","","","f","","yesOrNo","","","","10","","","gt","3000","",""
+"","","","","","html-keyboard-response","137","469243","0.0-15.0-0.23","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","510.8711431702997","369.03","8","fallScene","true","","","",""
+"","","","","","html-keyboard-response","138","470813","0.0-15.0-1.23","","","","passed","","1565","","","","","","","","","","","","","","j","","yesOrNo","","","","8","","","mid","3000","",""
+"","","","","","html-keyboard-response","139","474168","0.0-16.0","","","","passed","","3352","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","140","477173","0.0-17.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","141","478799","0.0-17.0-1.0","","","","passed","","1622","","","","","","","","","","","","","","j","","yesOrNo","","","","1","","","gt","3000","",""
+"","","","","","html-keyboard-response","142","481801","0.0-17.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","true","","","",""
+"","","","","","html-keyboard-response","143","482542","0.0-17.0-1.1","","","","passed","","737","","","","","","","","","","","","","","j","","yesOrNo","","","","12","","","gt","3000","",""
+"","","","","","html-keyboard-response","144","485545","0.0-17.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","true","","","",""
+"","","","","","html-keyboard-response","145","488132","0.0-17.0-1.2","","","","passed","","2583","","","","","","","","","","","","","","j","","yesOrNo","","","","3","","","lp","3000","",""
+"","","","","","html-keyboard-response","146","491135","0.0-17.0-0.3","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","true","","","",""
+"","","","","","html-keyboard-response","147","492929","0.0-17.0-1.3","","","","passed","","1791","","","","","","","","","","","","","","f","","yesOrNo","","","","2","","","mid","3000","",""
+"","","","","","html-keyboard-response","148","495931","0.0-17.0-0.4","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","149","498542","0.0-17.0-1.4","","","","passed","","2604","","","","","","","","","","","","","","j","","yesOrNo","","","","1","","","mid","3000","",""
+"","","","","","html-keyboard-response","150","501546","0.0-17.0-0.5","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","false","","","",""
+"","","","","","html-keyboard-response","151","502394","0.0-17.0-1.5","","","","passed","","844","","","","","","","","","","","","","","f","","yesOrNo","","","","12","","","lp","3000","",""
+"","","","","","html-keyboard-response","152","505395","0.0-17.0-0.6","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","453.67114317029973","210.33","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","153","506361","0.0-17.0-1.6","","","","passed","","962","","","","","","","","","","","","","","j","","yesOrNo","","","","5","","","gt","3000","",""
+"","","","","","html-keyboard-response","154","509363","0.0-17.0-0.7","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","true","","","",""
+"","","","","","html-keyboard-response","155","512006","0.0-17.0-1.7","","","","passed","","2640","","","","","","","","","","","","","","j","","yesOrNo","","","","12","","","mid","3000","",""
+"","","","","","html-keyboard-response","156","515008","0.0-17.0-0.8","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","true","","","",""
+"","","","","","html-keyboard-response","157","516963","0.0-17.0-1.8","","","","passed","","1952","","","","","","","","","","","","","","j","","yesOrNo","","","","9","","","mid","3000","",""
+"","","","","","html-keyboard-response","158","519965","0.0-17.0-0.9","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","453.67114317029973","210.33","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","159","521898","0.0-17.0-1.9","","","","passed","","1929","","","","","","","","","","","","","","f","","yesOrNo","","","","5","","","mid","3000","",""
+"","","","","","html-keyboard-response","160","524902","0.0-17.0-0.10","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","false","","","",""
+"","","","","","html-keyboard-response","161","526290","0.0-17.0-1.10","","","","passed","","1384","","","","","","","","","","","","","","j","","yesOrNo","","","","9","","","gt","3000","",""
+"","","","","","html-keyboard-response","162","529292","0.0-17.0-0.11","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","true","","","",""
+"","","","","","html-keyboard-response","163","531594","0.0-17.0-1.11","","","","passed","","2298","","","","","","","","","","","","","","f","","yesOrNo","","","","10","","","gt","3000","",""
+"","","","","","html-keyboard-response","164","534596","0.0-17.0-0.12","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","true","","","",""
+"","","","","","html-keyboard-response","165","535450","0.0-17.0-1.12","","","","passed","","850","","","","","","","","","","","","","","f","","yesOrNo","","","","9","","","lp","3000","",""
+"","","","","","html-keyboard-response","166","538454","0.0-17.0-0.13","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","453.67114317029973","210.33","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","167","539327","0.0-17.0-1.13","","","","passed","","869","","","","","","","","","","","","","","j","","yesOrNo","","","","5","","","mid","3000","",""
+"","","","","","html-keyboard-response","168","542329","0.0-17.0-0.14","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","true","","","",""
+"","","","","","html-keyboard-response","169","544721","0.0-17.0-1.14","","","","passed","","2389","","","","","","","","","","","","","","f","","yesOrNo","","","","3","","","gt","3000","",""
+"","","","","","html-keyboard-response","170","547725","0.0-17.0-0.15","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","false","","","",""
+"","","","","","html-keyboard-response","171","548680","0.0-17.0-1.15","","","","passed","","951","","","","","","","","","","","","","","j","","yesOrNo","","","","9","","","gt","3000","",""
+"","","","","","html-keyboard-response","172","551683","0.0-17.0-0.16","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","510.8711431702997","369.03","8","fallScene","true","","","",""
+"","","","","","html-keyboard-response","173","552584","0.0-17.0-1.16","","","","passed","","897","","","","","","","","","","","","","","f","","yesOrNo","","","","8","","","gt","3000","",""
+"","","","","","html-keyboard-response","174","555587","0.0-17.0-0.17","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","553.4711431702997","282.51","7","fallScene","true","","","",""
+"","","","","","html-keyboard-response","175","556710","0.0-17.0-1.17","","","","passed","","1119","","","","","","","","","","","","","","j","","yesOrNo","","","","7","","","lp","3000","",""
+"","","","","","html-keyboard-response","176","559712","0.0-17.0-0.18","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","177","561230","0.0-17.0-1.18","","","","passed","","1513","","","","","","","","","","","","","","j","","yesOrNo","","","","4","","","gt","3000","",""
+"","","","","","html-keyboard-response","178","564232","0.0-17.0-0.19","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","553.4711431702997","282.51","7","fallScene","false","","","",""
+"","","","","","html-keyboard-response","179","565290","0.0-17.0-1.19","","","","passed","","1055","","","","","","","","","","","","","","j","","yesOrNo","","","","7","","","gt","3000","",""
+"","","","","","html-keyboard-response","180","568293","0.0-17.0-0.20","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","479.92114317029973","330.87","6","fallScene","false","","","",""
+"","","","","","html-keyboard-response","181","569497","0.0-17.0-1.20","","","","passed","","1201","","","","","","","","","","","","","","j","","yesOrNo","","","","6","","","gt","3000","",""
+"","","","","","html-keyboard-response","182","572499","0.0-17.0-0.21","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","500","553.4711431702997","282.51","7","fallScene","true","","","",""
+"","","","","","html-keyboard-response","183","573632","0.0-17.0-1.21","","","","passed","","1130","","","","","","","","","","","","","","j","","yesOrNo","","","","7","","","mid","3000","",""
+"","","","","","html-keyboard-response","184","576633","0.0-17.0-0.22","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","185","578888","0.0-17.0-1.22","","","","passed","","2251","","","","","","","","","","","","","","f","","yesOrNo","","","","1","","","lp","3000","",""
+"","","","","","html-keyboard-response","186","581891","0.0-17.0-0.23","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","500","553.4711431702997","282.51","7","fallScene","true","","","",""
+"","","","","","html-keyboard-response","187","582766","0.0-17.0-1.23","","","","passed","","871","","","","","","","","","","","","","","j","","yesOrNo","","","","7","","","gt","3000","",""
+"","","","","","html-keyboard-response","188","585345","0.0-18.0","","","","passed","","2578","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 3</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","189","588353","0.0-19.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","true","","","",""
+"","","","","","html-keyboard-response","190","589359","0.0-19.0-1.0","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo","","","","10","","","lp","1000","",""
+"","","","","","html-keyboard-response","191","592363","0.0-19.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","510.8711431702997","369.03","8","fallScene","true","","","",""
+"","","","","","html-keyboard-response","192","593056","0.0-19.0-1.1","","","","passed","","690","","","","","","","","","","","","","","j","","yesOrNo","","","","8","","","mid","1000","",""
+"","","","","","html-keyboard-response","193","596059","0.0-19.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","true","","","",""
+"","","","","","html-keyboard-response","194","596805","0.0-19.0-1.2","","","","passed","","742","","","","","","","","","","","","","","f","","yesOrNo","","","","12","","","lp","1000","",""
+"","","","","","html-keyboard-response","195","599809","0.0-19.0-0.3","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","false","","","",""
+"","","","","","html-keyboard-response","196","600767","0.0-19.0-1.3","","","","passed","","954","","","","","","","","","","","","","","f","","yesOrNo","","","","10","","","gt","1000","",""
+"","","","","","html-keyboard-response","197","603769","0.0-19.0-0.4","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","500","479.92114317029973","330.87","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","198","604703","0.0-19.0-1.4","","","","passed","","931","","","","","","","","","","","","","","f","","yesOrNo","","","","6","","","gt","1000","",""
+"","","","","","html-keyboard-response","199","607705","0.0-19.0-0.5","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","200","608407","0.0-19.0-1.5","","","","passed","","698","","","","","","","","","","","","","","j","","yesOrNo","","","","1","","","mid","1000","",""
+"","","","","","html-keyboard-response","201","611410","0.0-19.0-0.6","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","202","612258","0.0-19.0-1.6","","","","passed","","844","","","","","","","","","","","","","","j","","yesOrNo","","","","1","","","gt","1000","",""
+"","","","","","html-keyboard-response","203","615261","0.0-19.0-0.7","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","204","616075","0.0-19.0-1.7","","","","passed","","811","","","","","","","","","","","","","","j","","yesOrNo","","","","4","","","mid","1000","",""
+"","","","","","html-keyboard-response","205","619079","0.0-19.0-0.8","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","500","553.4711431702997","282.51","7","fallScene","false","","","",""
+"","","","","","html-keyboard-response","206","619809","0.0-19.0-1.8","","","","passed","","728","","","","","","","","","","","","","","f","","yesOrNo","","","","7","","","lp","1000","",""
+"","","","","","html-keyboard-response","207","622814","0.0-19.0-0.9","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","479.92114317029973","330.87","6","fallScene","false","","","",""
+"","","","","","html-keyboard-response","208","623480","0.0-19.0-1.9","","","","passed","","663","","","","","","","","","","","","","","f","","yesOrNo","","","","6","","","lp","1000","",""
+"","","","","","html-keyboard-response","209","626483","0.0-19.0-0.10","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","true","","","",""
+"","","","","","html-keyboard-response","210","627206","0.0-19.0-1.10","","","","passed","","720","","","","","","","","","","","","","","j","","yesOrNo","","","","11","","","mid","1000","",""
+"","","","","","html-keyboard-response","211","630209","0.0-19.0-0.11","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","false","","","",""
+"","","","","","html-keyboard-response","212","630937","0.0-19.0-1.11","","","","passed","","723","","","","","","","","","","","","","","j","","yesOrNo","","","","3","","","lp","1000","",""
+"","","","","","html-keyboard-response","213","633939","0.0-19.0-0.12","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","510.8711431702997","369.03","8","fallScene","false","","","",""
+"","","","","","html-keyboard-response","214","634768","0.0-19.0-1.12","","","","passed","","826","","","","","","","","","","","","","","f","","yesOrNo","","","","8","","","gt","1000","",""
+"","","","","","html-keyboard-response","215","637770","0.0-19.0-0.13","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","false","","","",""
+"","","","","","html-keyboard-response","216","638557","0.0-19.0-1.13","","","","passed","","783","","","","","","","","","","","","","","j","","yesOrNo","","","","3","","","mid","1000","",""
+"","","","","","html-keyboard-response","217","641560","0.0-19.0-0.14","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","453.67114317029973","210.33","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","218","642203","0.0-19.0-1.14","","","","passed","","640","","","","","","","","","","","","","","j","","yesOrNo","","","","5","","","mid","1000","",""
+"","","","","","html-keyboard-response","219","645205","0.0-19.0-0.15","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","500","553.4711431702997","282.51","7","fallScene","false","","","",""
+"","","","","","html-keyboard-response","220","646087","0.0-19.0-1.15","","","","passed","","878","","","","","","","","","","","","","","j","","yesOrNo","","","","7","","","gt","1000","",""
+"","","","","","html-keyboard-response","221","649090","0.0-19.0-0.16","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","553.4711431702997","282.51","7","fallScene","true","","","",""
+"","","","","","html-keyboard-response","222","649837","0.0-19.0-1.16","","","","passed","","744","","","","","","","","","","","","","","j","","yesOrNo","","","","7","","","gt","1000","",""
+"","","","","","html-keyboard-response","223","652840","0.0-19.0-0.17","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","500","553.4711431702997","282.51","7","fallScene","false","","","",""
+"","","","","","html-keyboard-response","224","653737","0.0-19.0-1.17","","","","passed","","894","","","","","","","","","","","","","","f","","yesOrNo","","","","7","","","mid","1000","",""
+"","","","","","html-keyboard-response","225","656739","0.0-19.0-0.18","","","","passed","","null","","","","","","","","","","","","","","null","30.06","ballFalling","500","453.67114317029973","210.33","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","226","657473","0.0-19.0-1.18","","","","passed","","731","","","","","","","","","","","","","","f","","yesOrNo","","","","5","","","lp","1000","",""
+"","","","","","html-keyboard-response","227","660477","0.0-19.0-0.19","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","453.67114317029973","210.33","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","228","661163","0.0-19.0-1.19","","","","passed","","683","","","","","","","","","","","","","","j","","yesOrNo","","","","5","","","gt","1000","",""
+"","","","","","html-keyboard-response","229","664166","0.0-19.0-0.20","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","510.8711431702997","369.03","8","fallScene","false","","","",""
+"","","","","","html-keyboard-response","230","665030","0.0-19.0-1.20","","","","passed","","860","","","","","","","","","","","","","","f","","yesOrNo","","","","8","","","mid","1000","",""
+"","","","","","html-keyboard-response","231","668033","0.0-19.0-0.21","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","232","668773","0.0-19.0-1.21","","","","passed","","736","","","","","","","","","","","","","","j","","yesOrNo","","","","2","","","gt","1000","",""
+"","","","","","html-keyboard-response","233","671775","0.0-19.0-0.22","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","234","672606","0.0-19.0-1.22","","","","passed","","827","","","","","","","","","","","","","","f","","yesOrNo","","","","4","","","gt","1000","",""
+"","","","","","html-keyboard-response","235","675608","0.0-19.0-0.23","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","479.92114317029973","330.87","6","fallScene","false","","","",""
+"","","","","","html-keyboard-response","236","676378","0.0-19.0-1.23","","","","passed","","767","","","","","","","","","","","","","","f","","yesOrNo","","","","6","","","lp","1000","",""
+"","","","","","html-keyboard-response","237","677428","0.0-20.0","","","","passed","","1048","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 4</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","238","680436","0.0-21.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","true","","","",""
+"","","","","","html-keyboard-response","239","681171","0.0-21.0-1.0","","","","passed","","729","","","","","","","","","","","","","","f","","yesOrNo","","","","12","","","lp","3000","",""
+"","","","","","html-keyboard-response","240","684174","0.0-21.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","510.8711431702997","369.03","8","fallScene","true","","","",""
+"","","","","","html-keyboard-response","241","684843","0.0-21.0-1.1","","","","passed","","666","","","","","","","","","","","","","","f","","yesOrNo","","","","8","","","lp","3000","",""
+"","","","","","html-keyboard-response","242","687848","0.0-21.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","453.67114317029973","210.33","5","fallScene","true","","","",""
+"","","","","","html-keyboard-response","243","688609","0.0-21.0-1.2","","","","passed","","756","","","","","","","","","","","","","","j","","yesOrNo","","","","5","","","gt","3000","",""
+"","","","","","html-keyboard-response","244","691612","0.0-21.0-0.3","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","500","479.92114317029973","330.87","6","fallScene","false","","","",""
+"","","","","","html-keyboard-response","245","692384","0.0-21.0-1.3","","","","passed","","768","","","","","","","","","","","","","","j","","yesOrNo","","","","6","","","mid","3000","",""
+"","","","","","html-keyboard-response","246","695388","0.0-21.0-0.4","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","500","510.8711431702997","369.03","8","fallScene","true","","","",""
+"","","","","","html-keyboard-response","247","696372","0.0-21.0-1.4","","","","passed","","981","","","","","","","","","","","","","","j","","yesOrNo","","","","8","","","mid","3000","",""
+"","","","","","html-keyboard-response","248","699376","0.0-21.0-0.5","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","249","700424","0.0-21.0-1.5","","","","passed","","1044","","","","","","","","","","","","","","j","","yesOrNo","","","","4","","","mid","3000","",""
+"","","","","","html-keyboard-response","250","703426","0.0-21.0-0.6","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","500","553.4711431702997","282.51","7","fallScene","true","","","",""
+"","","","","","html-keyboard-response","251","704114","0.0-21.0-1.6","","","","passed","","684","","","","","","","","","","","","","","j","","yesOrNo","","","","7","","","mid","3000","",""
+"","","","","","html-keyboard-response","252","707118","0.0-21.0-0.7","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","true","","","",""
+"","","","","","html-keyboard-response","253","708508","0.0-21.0-1.7","","","","passed","","1386","","","","","","","","","","","","","","f","","yesOrNo","","","","10","","","lp","3000","",""
+"","","","","","html-keyboard-response","254","711512","0.0-21.0-0.8","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","479.92114317029973","330.87","6","fallScene","false","","","",""
+"","","","","","html-keyboard-response","255","714208","0.0-21.0-1.8","","","","passed","","2691","","","","","","","","","","","","","","f","","yesOrNo","","","","6","","","lp","3000","",""
+"","","","","","html-keyboard-response","256","717211","0.0-21.0-0.9","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","true","","","",""
+"","","","","","html-keyboard-response","257","719695","0.0-21.0-1.9","","","","passed","","2480","","","","","","","","","","","","","","j","","yesOrNo","","","","4","","","lp","3000","",""
+"","","","","","html-keyboard-response","258","722698","0.0-21.0-0.10","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","true","","","",""
+"","","","","","html-keyboard-response","259","725625","0.0-21.0-1.10","","","","passed","","2923","","","","","","","","","","","","","","j","","yesOrNo","","","","11","","","mid","3000","",""
+"","","","","","html-keyboard-response","260","728626","0.0-21.0-0.11","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","false","","","",""
+"","","","","","html-keyboard-response","261","730565","0.0-21.0-1.11","","","","passed","","1935","","","","","","","","","","","","","","f","","yesOrNo","","","","10","","","mid","3000","",""
+"","","","","","html-keyboard-response","262","733569","0.0-21.0-0.12","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","false","","","",""
+"","","","","","html-keyboard-response","263","736393","0.0-21.0-1.12","","","","passed","","2820","","","","","","","","","","","","","","f","","yesOrNo","","","","9","","","mid","3000","",""
+"","","","","","html-keyboard-response","264","739395","0.0-21.0-0.13","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","true","","","",""
+"","","","","","html-keyboard-response","265","740991","0.0-21.0-1.13","","","","passed","","1593","","","","","","","","","","","","","","f","","yesOrNo","","","","3","","","gt","3000","",""
+"","","","","","html-keyboard-response","266","743992","0.0-21.0-0.14","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","479.92114317029973","330.87","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","267","746479","0.0-21.0-1.14","","","","passed","","2483","","","","","","","","","","","","","","f","","yesOrNo","","","","6","","","gt","3000","",""
+"","","","","","html-keyboard-response","268","749484","0.0-21.0-0.15","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","453.67114317029973","210.33","5","fallScene","true","","","",""
+"","","","","","html-keyboard-response","269","750344","0.0-21.0-1.15","","","","passed","","856","","","","","","","","","","","","","","f","","yesOrNo","","","","5","","","lp","3000","",""
+"","","","","","html-keyboard-response","270","753348","0.0-21.0-0.16","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","true","","","",""
+"","","","","","html-keyboard-response","271","755028","0.0-21.0-1.16","","","","passed","","1676","","","","","","","","","","","","","","j","","yesOrNo","","","","11","","","gt","3000","",""
+"","","","","","html-keyboard-response","272","758030","0.0-21.0-0.17","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","true","","","",""
+"","","","","","html-keyboard-response","273","759888","0.0-21.0-1.17","","","","passed","","1855","","","","","","","","","","","","","","f","","yesOrNo","","","","10","","","mid","3000","",""
+"","","","","","html-keyboard-response","274","762893","0.0-21.0-0.18","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","false","","","",""
+"","","","","","html-keyboard-response","275","765512","0.0-21.0-1.18","","","","passed","","2616","","","","","","","","","","","","","","f","","yesOrNo","","","","11","","","mid","3000","",""
+"","","","","","html-keyboard-response","276","768517","0.0-21.0-0.19","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","false","","","",""
+"","","","","","html-keyboard-response","277","770873","0.0-21.0-1.19","","","","passed","","2352","","","","","","","","","","","","","","j","","yesOrNo","","","","3","","","mid","3000","",""
+"","","","","","html-keyboard-response","278","773876","0.0-21.0-0.20","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","479.92114317029973","330.87","6","fallScene","false","","","",""
+"","","","","","html-keyboard-response","279","775368","0.0-21.0-1.20","","","","passed","","1488","","","","","","","","","","","","","","f","","yesOrNo","","","","6","","","lp","3000","",""
+"","","","","","html-keyboard-response","280","778370","0.0-21.0-0.21","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","281","779969","0.0-21.0-1.21","","","","passed","","1594","","","","","","","","","","","","","","j","","yesOrNo","","","","2","","","mid","3000","",""
+"","","","","","html-keyboard-response","282","782972","0.0-21.0-0.22","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","283","785387","0.0-21.0-1.22","","","","passed","","2409","","","","","","","","","","","","","","j","","yesOrNo","","","","4","","","mid","3000","",""
+"","","","","","html-keyboard-response","284","788390","0.0-21.0-0.23","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","285","789132","0.0-21.0-1.23","","","","passed","","738","","","","","","","","","","","","","","j","","yesOrNo","","","","2","","","gt","3000","",""
+"","","","","","html-keyboard-response","286","790780","0.0-22.0","","","","passed","","1646","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 5</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","287","793789","0.0-23.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","30.12","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","true","","","",""
+"","","","","","html-keyboard-response","288","794794","0.0-23.0-1.0","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo","","","","3","","","mid","1000","",""
+"","","","","","html-keyboard-response","289","797796","0.0-23.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30.06","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","true","","","",""
+"","","","","","html-keyboard-response","290","798431","0.0-23.0-1.1","","","","passed","","631","","","","","","","","","","","","","","j","","yesOrNo","","","","9","","","gt","1000","",""
+"","","","","","html-keyboard-response","291","801432","0.0-23.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","479.92114317029973","330.87","6","fallScene","false","","","",""
+"","","","","","html-keyboard-response","292","802366","0.0-23.0-1.2","","","","passed","","930","","","","","","","","","","","","","","j","","yesOrNo","","","","6","","","mid","1000","",""
+"","","","","","html-keyboard-response","293","805368","0.0-23.0-0.3","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","true","","","",""
+"","","","","","html-keyboard-response","294","806145","0.0-23.0-1.3","","","","passed","","773","","","","","","","","","","","","","","f","","yesOrNo","","","","12","","","mid","1000","",""
+"","","","","","html-keyboard-response","295","809147","0.0-23.0-0.4","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","296","809796","0.0-23.0-1.4","","","","passed","","645","","","","","","","","","","","","","","j","","yesOrNo","","","","2","","","mid","1000","",""
+"","","","","","html-keyboard-response","297","812798","0.0-23.0-0.5","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","false","","","",""
+"","","","","","html-keyboard-response","298","813646","0.0-23.0-1.5","","","","passed","","844","","","","","","","","","","","","","","j","","yesOrNo","","","","11","","","lp","1000","",""
+"","","","","","html-keyboard-response","299","816650","0.0-23.0-0.6","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","true","","","",""
+"","","","","","html-keyboard-response","300","817326","0.0-23.0-1.6","","","","passed","","673","","","","","","","","","","","","","","f","","yesOrNo","","","","3","","","lp","1000","",""
+"","","","","","html-keyboard-response","301","820330","0.0-23.0-0.7","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","false","","","",""
+"","","","","","html-keyboard-response","302","820996","0.0-23.0-1.7","","","","passed","","665","","","","","","","","","","","","","","j","","yesOrNo","","","","9","","","mid","1000","",""
+"","","","","","html-keyboard-response","303","823999","0.0-23.0-0.8","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","304","824734","0.0-23.0-1.8","","","","passed","","732","","","","","","","","","","","","","","f","","yesOrNo","","","","2","","","lp","1000","",""
+"","","","","","html-keyboard-response","305","827736","0.0-23.0-0.9","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","306","828554","0.0-23.0-1.9","","","","passed","","814","","","","","","","","","","","","","","f","","yesOrNo","","","","4","","","mid","1000","",""
+"","","","","","html-keyboard-response","307","831558","0.0-23.0-0.10","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","553.4711431702997","282.51","7","fallScene","true","","","",""
+"","","","","","html-keyboard-response","308","832236","0.0-23.0-1.10","","","","passed","","675","","","","","","","","","","","","","","j","","yesOrNo","","","","7","","","mid","1000","",""
+"","","","","","html-keyboard-response","309","835239","0.0-23.0-0.11","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","false","","","",""
+"","","","","","html-keyboard-response","310","835817","0.0-23.0-1.11","","","","passed","","573","","","","","","","","","","","","","","f","","yesOrNo","","","","12","","","lp","1000","",""
+"","","","","","html-keyboard-response","311","838820","0.0-23.0-0.12","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","true","","","",""
+"","","","","","html-keyboard-response","312","839414","0.0-23.0-1.12","","","","passed","","589","","","","","","","","","","","","","","f","","yesOrNo","","","","9","","","lp","1000","",""
+"","","","","","html-keyboard-response","313","842417","0.0-23.0-0.13","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","553.4711431702997","282.51","7","fallScene","false","","","",""
+"","","","","","html-keyboard-response","314","843005","0.0-23.0-1.13","","","","passed","","584","","","","","","","","","","","","","","f","","yesOrNo","","","","7","","","lp","1000","",""
+"","","","","","html-keyboard-response","315","846008","0.0-23.0-0.14","","","","passed","","null","","","","","","","","","","","","","","null","32.054","ballFalling","500","510.8711431702997","369.03","8","fallScene","false","","","",""
+"","","","","","html-keyboard-response","316","846692","0.0-23.0-1.14","","","","passed","","680","","","","","","","","","","","","","","f","","yesOrNo","","","","8","","","lp","1000","",""
+"","","","","","html-keyboard-response","317","849696","0.0-23.0-0.15","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","318","849991","0.0-23.0-1.15","","","","passed","","291","","","","","","","","","","","","","","f","","yesOrNo","","","","4","","","lp","1000","",""
+"","","","","","html-keyboard-response","319","852994","0.0-23.0-0.16","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","false","","","",""
+"","","","","","html-keyboard-response","320","853660","0.0-23.0-1.16","","","","passed","","662","","","","","","","","","","","","","","f","","yesOrNo","","","","11","","","mid","1000","",""
+"","","","","","html-keyboard-response","321","856663","0.0-23.0-0.17","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","453.67114317029973","210.33","5","fallScene","true","","","",""
+"","","","","","html-keyboard-response","322","857082","0.0-23.0-1.17","","","","passed","","415","","","","","","","","","","","","","","j","","yesOrNo","","","","5","","","mid","1000","",""
+"","","","","","html-keyboard-response","323","860086","0.0-23.0-0.18","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","500","510.8711431702997","369.03","8","fallScene","false","","","",""
+"","","","","","html-keyboard-response","324","860735","0.0-23.0-1.18","","","","passed","","645","","","","","","","","","","","","","","f","","yesOrNo","","","","8","","","lp","1000","",""
+"","","","","","html-keyboard-response","325","863737","0.0-23.0-0.19","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","true","","","",""
+"","","","","","html-keyboard-response","326","864741","0.0-23.0-1.19","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo","","","","2","","","lp","1000","",""
+"","","","","","html-keyboard-response","327","867744","0.0-23.0-0.20","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","false","","","",""
+"","","","","","html-keyboard-response","328","868597","0.0-23.0-1.20","","","","passed","","848","","","","","","","","","","","","","","j","","yesOrNo","","","","3","","","gt","1000","",""
+"","","","","","html-keyboard-response","329","871600","0.0-23.0-0.21","","","","passed","","null","","","","","","","","","","","","","","null","31.992","ballFalling","500","453.67114317029973","210.33","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","330","872301","0.0-23.0-1.21","","","","passed","","697","","","","","","","","","","","","","","f","","yesOrNo","","","","5","","","lp","1000","",""
+"","","","","","html-keyboard-response","331","875305","0.0-23.0-0.22","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","false","","","",""
+"","","","","","html-keyboard-response","332","876109","0.0-23.0-1.22","","","","passed","","801","","","","","","","","","","","","","","f","","yesOrNo","","","","9","","","mid","1000","",""
+"","","","","","html-keyboard-response","333","879114","0.0-23.0-0.23","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","true","","","",""
+"","","","","","html-keyboard-response","334","880043","0.0-23.0-1.23","","","","passed","","925","","","","","","","","","","","","","","f","","yesOrNo","","","","10","","","lp","1000","",""
+"","","","","","html-keyboard-response","335","881304","0.0-24.0","","","","passed","","1259","","","","","","","","","","","","","<p><span style=""font-size:40px;"">BLOCK 6</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>"," ","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","336","884313","0.0-25.0-0.0","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","479.92114317029973","330.87","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","337","885215","0.0-25.0-1.0","","","","passed","","898","","","","","","","","","","","","","","f","","yesOrNo","","","","6","","","mid","1000","",""
+"","","","","","html-keyboard-response","338","888217","0.0-25.0-0.1","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","339","889019","0.0-25.0-1.1","","","","passed","","798","","","","","","","","","","","","","","j","","yesOrNo","","","","4","","","gt","1000","",""
+"","","","","","html-keyboard-response","340","892022","0.0-25.0-0.2","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","true","","","",""
+"","","","","","html-keyboard-response","341","892754","0.0-25.0-1.2","","","","passed","","728","","","","","","","","","","","","","","j","","yesOrNo","","","","11","","","lp","1000","",""
+"","","","","","html-keyboard-response","342","895756","0.0-25.0-0.3","","","","passed","","null","","","","","","","","","","","","","","null","31.992","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","true","","","",""
+"","","","","","html-keyboard-response","343","896654","0.0-25.0-1.3","","","","passed","","891","","","","","","","","","","","","","","f","","yesOrNo","","","","10","","","mid","1000","",""
+"","","","","","html-keyboard-response","344","899657","0.0-25.0-0.4","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","false","","","",""
+"","","","","","html-keyboard-response","345","900536","0.0-25.0-1.4","","","","passed","","875","","","","","","","","","","","","","","j","","yesOrNo","","","","12","","","mid","1000","",""
+"","","","","","html-keyboard-response","346","903538","0.0-25.0-0.5","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","356.42114317029973","357.87","4","fallScene","false","","","",""
+"","","","","","html-keyboard-response","347","904353","0.0-25.0-1.5","","","","passed","","813","","","","","","","","","","","","","","f","","yesOrNo","","","","4","","","lp","1000","",""
+"","","","","","html-keyboard-response","348","907356","0.0-25.0-0.6","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","453.67114317029973","210.33","5","fallScene","false","","","",""
+"","","","","","html-keyboard-response","349","908039","0.0-25.0-1.6","","","","passed","","679","","","","","","","","","","","","","","j","","yesOrNo","","","","5","","","gt","1000","",""
+"","","","","","html-keyboard-response","350","911042","0.0-25.0-0.7","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","351","911799","0.0-25.0-1.7","","","","passed","","753","","","","","","","","","","","","","","j","","yesOrNo","","","","2","","","mid","1000","",""
+"","","","","","html-keyboard-response","352","914801","0.0-25.0-0.8","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","353","915629","0.0-25.0-1.8","","","","passed","","824","","","","","","","","","","","","","","f","","yesOrNo","","","","1","","","lp","1000","",""
+"","","","","","html-keyboard-response","354","918632","0.0-25.0-0.9","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","false","","","",""
+"","","","","","html-keyboard-response","355","919504","0.0-25.0-1.9","","","","passed","","868","","","","","","","","","","","","","","f","","yesOrNo","","","","1","","","mid","1000","",""
+"","","","","","html-keyboard-response","356","922506","0.0-25.0-0.10","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","true","","","",""
+"","","","","","html-keyboard-response","357","923429","0.0-25.0-1.10","","","","passed","","919","","","","","","","","","","","","","","f","","yesOrNo","","","","9","","","lp","1000","",""
+"","","","","","html-keyboard-response","358","926431","0.0-25.0-0.11","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","true","","","",""
+"","","","","","html-keyboard-response","359","927316","0.0-25.0-1.11","","","","passed","","881","","","","","","","","","","","","","","j","","yesOrNo","","","","11","","","gt","1000","",""
+"","","","","","html-keyboard-response","360","930319","0.0-25.0-0.12","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","false","","","",""
+"","","","","","html-keyboard-response","361","930989","0.0-25.0-1.12","","","","passed","","666","","","","","","","","","","","","","","f","","yesOrNo","","","","10","","","gt","1000","",""
+"","","","","","html-keyboard-response","362","933993","0.0-25.0-0.13","","","","passed","","null","","","","","","","","","","","","","","null","32.022999999999996","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","true","","","",""
+"","","","","","html-keyboard-response","363","934787","0.0-25.0-1.13","","","","passed","","790","","","","","","","","","","","","","","j","","yesOrNo","","","","1","","","lp","1000","",""
+"","","","","","html-keyboard-response","364","937791","0.0-25.0-0.14","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","308.07114317029976","253.89","2","fallScene","false","","","",""
+"","","","","","html-keyboard-response","365","938556","0.0-25.0-1.14","","","","passed","","760","","","","","","","","","","","","","","j","","yesOrNo","","","","2","","","gt","1000","",""
+"","","","","","html-keyboard-response","366","941559","0.0-25.0-0.15","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","322.3","379.3711431702997","245.25","1","fallScene","true","","","",""
+"","","","","","html-keyboard-response","367","942373","0.0-25.0-1.15","","","","passed","","810","","","","","","","","","","","","","","j","","yesOrNo","","","","1","","","gt","1000","",""
+"","","","","","html-keyboard-response","368","945375","0.0-25.0-0.16","","","","passed","","null","","","","","","","","","","","","","","null","31.992","ballFalling","604.4000000000001","650.0211431702996","404.58000000000004","11","fallScene","false","","","",""
+"","","","","","html-keyboard-response","369","946235","0.0-25.0-1.16","","","","passed","","855","","","","","","","","","","","","","","f","","yesOrNo","","","","11","","","gt","1000","",""
+"","","","","","html-keyboard-response","370","949238","0.0-25.0-0.17","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","true","","","",""
+"","","","","","html-keyboard-response","371","950175","0.0-25.0-1.17","","","","passed","","933","","","","","","","","","","","","","","j","","yesOrNo","","","","12","","","gt","1000","",""
+"","","","","","html-keyboard-response","372","953176","0.0-25.0-0.18","","","","passed","","null","","","","","","","","","","","","","","null","31.992","ballFalling","604.4000000000001","575.4211431702997","266.76","12","fallScene","true","","","",""
+"","","","","","html-keyboard-response","373","953834","0.0-25.0-1.18","","","","passed","","653","","","","","","","","","","","","","","j","","yesOrNo","","","","12","","","gt","1000","",""
+"","","","","","html-keyboard-response","374","956837","0.0-25.0-0.19","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","500","510.8711431702997","369.03","8","fallScene","false","","","",""
+"","","","","","html-keyboard-response","375","957730","0.0-25.0-1.19","","","","passed","","890","","","","","","","","","","","","","","f","","yesOrNo","","","","8","","","gt","1000","",""
+"","","","","","html-keyboard-response","376","960733","0.0-25.0-0.20","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","604.4000000000001","667.6211431702998","201.78","9","fallScene","false","","","",""
+"","","","","","html-keyboard-response","377","961665","0.0-25.0-1.20","","","","passed","","927","","","","","","","","","","","","","","j","","yesOrNo","","","","9","","","gt","1000","",""
+"","","","","","html-keyboard-response","378","964666","0.0-25.0-0.21","","","","passed","","null","","","","","","","","","","","","","","null","30.06","ballFalling","322.3","296.07114317029976","371.46","3","fallScene","true","","","",""
+"","","","","","html-keyboard-response","379","965672","0.0-25.0-1.21","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo","","","","3","","","gt","1000","",""
+"","","","","","html-keyboard-response","380","968674","0.0-25.0-0.22","","","","passed","","null","","","","","","","","","","","","","","null","30","ballFalling","500","479.92114317029973","330.87","6","fallScene","true","","","",""
+"","","","","","html-keyboard-response","381","969542","0.0-25.0-1.22","","","","passed","","866","","","","","","","","","","","","","","j","","yesOrNo","","","","6","","","gt","1000","",""
+"","","","","","html-keyboard-response","382","972544","0.0-25.0-0.23","","","","passed","","null","","","","","","","","","","","","","","null","30.029999999999998","ballFalling","604.4000000000001","596.8711431702998","394.5","10","fallScene","true","","","",""
+"","","","","","html-keyboard-response","383","973549","0.0-25.0-1.23","","","","passed","","null","","","","","","","","","","","","","","null","","yesOrNo","","","","10","","","mid","1000","",""
+"","","","","","survey-text","384","1002861","0.0-26.0","","","","passed","","29302","","","","","","","","","","","","","","{""Summary"":""cindyTest_online_0_Timer might be too small, consider doing a full screen timer?""}","","","","","","","","","","","",""
+"","","","","","survey-text","385","1006359","0.0-27.0","","","","passed","","3493","","","","","","","","","","","","","","{""Comments"":""aaaaaa""}","","","","","","","","","","","",""

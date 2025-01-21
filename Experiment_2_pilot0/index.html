@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is this the triangle?</title>
+    <link href="../jspsych/jspsych.css" rel="stylesheet">
+    <link rel="stylesheet" href="experimentStyle_2.css">
+    <script src="https://unpkg.com/jspsych@7.3.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-button-response@1.1.2"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script> -->
+    <script src="matter.js"></script>
+    <script src="../jspsych/jspsych.js"></script>
+    <script src="../jspsych/plugin-html-keyboard-response.js"></script>
+
+    <script src="../jspsych/plugin-instructions.js"></script>
+    <script src="../jspsych/plugin-fullscreen.js"></script>
+    <script src="../jspsych/plugin-external-html.js"></script>
+    <script src="../jspsych/plugin-survey-text.js"></script>
+    <script src="../jspsych/plugin-survey-multi-choice.js"></script>
+    <script src="../jspsych/plugin-preload.js"></script>
+    <script src="../jspsych/plugin-html-button-response.js"></script>
+    <script src="../jspsych/plugin-survey-text.js"></script>
+    <script src="../jspsych/plugin-call-function.js"></script>
+    <script src="../jspsych/plugin-browser-check.js"></script>
+
+
+    <script src="shared_Setup.js"></script>
+    <script src="fallingScene_info.js"></script>
+    <script src="yesOrNoTask_info.js"></script>
+    <script src="practiceTrials_info.js"></script>
+
+    <script>
+        function declineConsent() {
+            document.body.innerHTML = '<h2>Thank you for your time.</h2><p>You have chosen not to participate in this study.<br> You can close your browser now.</p>';
+        }
+        </script>
+</head>
+
+<body>
+    <!-- <div id="simulation"></div> -->
+    <!-- <div id="prompt-container"> -->
+        <!-- Add your prompt content here -->
+        <!-- <p> Reconstruct the physical scene by moving the position of the obstacle with your cursor.</p> -->
+    <!-- </div> -->
+    <!-- <div id="canvas-container"></div> -->
+    <!-- <script src="pracTrials_info_gen.js"></script> -->
+    <script src="experimentScript_2.js"></script>
+    <!-- <script src="practice_trial_1.js"></script> -->
+</body>
+
+</html>

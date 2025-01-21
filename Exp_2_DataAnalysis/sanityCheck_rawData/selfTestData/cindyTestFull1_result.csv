@@ -1,0 +1,462 @@
+success,timeout,failed_images,failed_audio,failed_video,trial_type,trial_index,time_elapsed,internal_node_id,subject_id,study_id,session_id,practiceTestResult,view_history,rt,width,height,webaudio,browser,browser_version,mobile,os,fullscreen,vsync_rate,webcam,microphone,url,stimulus,response,task,ball_X,obstacle_groundTruth_x,obstacle_groundTruth_y,stimulus_idx,trial_name,flipped,choice,timeLimit,question_order,obstacle_choice_x,obstacle_choice_y,currentTrial
+TRUE,FALSE,[],[],[],preload,0,8,0.0-0.0,,,,passed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,instructions,1,1707029,0.0-1.0,,,,passed,"[{""page_index"":0,""viewing_time"":1184817}]",1184817,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,browser-check,2,1708016,0.0-2.0,,,,passed,,,1430,822,TRUE,chrome,131.0.0,FALSE,Mac OS,TRUE,61.24,TRUE,TRUE,,,,,,,,,,,,,,,,
+,,,,,external-html,3,1710430,0.0-3.0,,,,passed,,1760,,,,,,,,,,,,consent.html,,,,,,,,,,,,,,,
+TRUE,,,,,fullscreen,4,1712098,0.0-4.0,,,,passed,,1364,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,browser-check,5,1713100,0.0-5.0,,,,passed,,,2133,1200,TRUE,chrome,131.0.0,FALSE,Mac OS,TRUE,60.07,TRUE,TRUE,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,6,1714000,0.0-6.0,,,,passed,,898,,,,,,,,,,,,,"<p><b>This experiment requires keyboard input.</b></p> 
+        <p><b>To ensure your response will be recorded successfully, please press 'Space' to continue.</b></p>
+        <p>If you can't proceed, you won't be able to complete this study.</p>
+        <p></p> <!-- Blank line -->
+        <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+        <style>
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,7,1715313,0.0-7.0,,,,passed,,1311,,,,,,,,,,,,,"<p><b>This experiment requires keyboard input.</b></p> 
+        <p><b>To ensure your response will be recorded successfully, please press the 'f' key to continue.</b></p>
+        <p>If you can't proceed, you won't be able to complete this study.</p>
+        <p></p> <!-- Blank line -->
+        <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press f to continue</p>
+        <style>
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>",f,,,,,,,,,,,,,
+,,,,,html-keyboard-response,8,1715781,0.0-8.0,,,,passed,,465,,,,,,,,,,,,,"<p><b>This experiment requires keyboard input.</b></p> 
+        <p><b>To ensure your response will be recorded successfully, please press the 'j' key to continue.</b></p>
+        <p>If you can't proceed, you won't be able to complete this study.</p>
+        <p></p> <!-- Blank line -->
+        <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press j to continue</p>
+        <style>
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>",j,,,,,,,,,,,,,
+,,,,,browser-check,9,1716783,0.0-9.0,,,,passed,,,2133,1200,TRUE,chrome,131.0.0,FALSE,Mac OS,TRUE,60.07,TRUE,TRUE,,,,,,,,,,,,,,,,
+,,,,,survey-text,10,1755399,0.0-10.0,,,,passed,,38611,,,,,,,,,,,,,,"{""prolificID"":""cindyTestFull_1""}",,,,,,,,,,,,,
+,,,,,instructions,11,1758733,0.0-11.0-0.0-0.0,,,,passed,"[{""page_index"":0,""viewing_time"":1031},{""page_index"":1,""viewing_time"":616},{""page_index"":2,""viewing_time"":851},{""page_index"":3,""viewing_time"":834}]",3333,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,12,1761957,0.0-11.0-0.0-1.0,,,,passed,,2720,,,,,,,,,,,,,"<br>Remember! After a ball falls, the screen will disappear, and you'll decide if the proposed position is where the hidden triangle was. <br>You will now practice this by watching a few videos and making decisions.<p>To respond:<br style=""margin-bottom: 5px; text-indent: -20px; padding-left: 20px;"">- Press <b style=""color: #12AD2B;"">J for Yes</b>, if you think the triangle is in the correct position.<br style=""margin-top: 0; text-indent: -20px; padding-left: 20px;"">- Press <b style=""color: orange;"">F for No</b>, if you think the triangle is not in the correct position.</p><p>In this practice round, there is no time limit. Focus on getting comfortable with the task first.<br>Press either J or F to begin your practice trials.</p><img src = ""YesOrNo_instruction.png"" style=""width: 65%;""></img>",j,,,,,,,,,,,,,
+,,,,,html-keyboard-response,13,1764019,0.0-11.0-0.0-2.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,660,666,350,3,fallScene,FALSE,,,,,,
+,,,,,html-keyboard-response,14,1765155,0.0-11.0-0.0-2.0-1.0,,,,passed,,1132,,,,,,,,,,,,,,f,yesOrNo_prac_noTimed,,,,3,,,wrong direction,NA,,,,
+,,,,,html-keyboard-response,15,1766735,0.0-11.0-0.0-2.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,441,414,302,5,fallScene,TRUE,,,,,,
+,,,,,html-keyboard-response,16,1767672,0.0-11.0-0.0-2.0-1.1,,,,passed,,934,,,,,,,,,,,,,,j,yesOrNo_prac_noTimed,,,,5,,,close gt,NA,,,,
+,,,,,html-keyboard-response,17,1769235,0.0-11.0-0.0-2.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,416,464,296,1,fallScene,FALSE,,,,,,
+,,,,,html-keyboard-response,18,1770153,0.0-11.0-0.0-2.0-1.2,,,,passed,,914,,,,,,,,,,,,,,j,yesOrNo_prac_noTimed,,,,1,,,gt,NA,,,,
+,,,,,instructions,19,1773998,0.0-11.0-0.0-3.0,,,,passed,"[{""page_index"":0,""viewing_time"":2698},{""page_index"":1,""viewing_time"":1146}]",3844,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,20,1775884,0.0-11.0-0.0-4.0,,,,passed,,1380,,,,,,,,,,,,,"<p>To make sure you understood the task, we just have a <b>brief quiz</b> here.</p><p>If you need to review the instructions, click 'Previous'.</p><p>It's important to understand the task to do the study, so you have to pass the quiz to move to the study.</p>",1,,,,,,,,,,,,,
+,,,,,survey-multi-choice,21,1778701,0.0-11.0-1.0-0.0,,,,passed,,2808,,,,,,,,,,,,,,"{""generalProcedure"":""Watch a video of a ball falling, some of it behind a gray screen. After each video, decide if the triangle is at the spot where the ball hit the triangle behind the screen. There is time limit for the response.""}",,,,,,,,,,[0],,,
+,,,,,survey-multi-choice,22,1781100,0.0-11.0-1.0-1.0,,,,passed,,2397,,,,,,,,,,,,,,"{""checkBallHitObstacle"":""Yes.""}",,,,,,,,,,[0],,,
+,,,,,survey-multi-choice,23,1783600,0.0-11.0-1.0-2.0,,,,passed,,2498,,,,,,,,,,,,,,"{""checkTriangleVisibility"":""No, the triangle is hidden behind the gray screen.""}",,,,,,,,,,[0],,,
+,,,,,survey-multi-choice,24,1786301,0.0-11.0-1.0-3.0,,,,passed,,2698,,,,,,,,,,,,,,"{""checkTimedResponse"":""Your response will not be recorded, and the trial will move to the next one.""}",,,,,,,,,,[0],,,
+,,,,,survey-multi-choice,25,1788901,0.0-11.0-1.0-4.0,,,,passed,,2597,,,,,,,,,,,,,,"{""checkTimeBlockNotice"":""At the beginning of each block.""}",,,,,,,,,,[0],,,
+,,,,,survey-multi-choice,26,1791901,0.0-11.0-1.0-5.0,,,,passed,,2999,,,,,,,,,,,,,,"{""checkTimeBlockSameness"":""Yes, the time limit is the same for all trials within a block.""}",,,,,,,,,,[0],,,
+,,,,,survey-multi-choice,27,1794818,0.0-11.0-1.0-6.0,,,,passed,,2914,,,,,,,,,,,,,,"{""checkTrianglePrecision"":""No. The proposed purple triangle is not in the correct position because it doesn't match the location of the white triangle exactly.""}",,,,,,,,,,[0],,,
+,,,,,instructions,28,1798402,0.0-12.0,,,,passed,"[{""page_index"":0,""viewing_time"":1263},{""page_index"":1,""viewing_time"":1001},{""page_index"":2,""viewing_time"":701},{""page_index"":3,""viewing_time"":617}]",3583,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,instructions,29,1799833,0.0-13.0-0.0,,,,passed,"[{""page_index"":0,""viewing_time"":1430}]",1431,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,30,1800701,0.0-13.0-1.0,,,,passed,,866,,,,,,,,,,,,,"<p><span style=""font-size:40px;"">Practice BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,31,1802270,0.0-13.0-2.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,660,610,263,4,fallScene,FALSE,,,,,,
+,,,,,html-keyboard-response,32,1802982,0.0-13.0-2.0-1.0,,,,passed,,707,,,,,,,,,,,,,,j,yesOrNo_prac,,,,4,,,gt,3000,,,,
+,,,,,html-keyboard-response,33,1804538,0.0-13.0-2.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,416,464,296,1,fallScene,FALSE,,,,,,
+,,,,,html-keyboard-response,34,1805443,0.0-13.0-2.0-1.1,,,,passed,,900,,,,,,,,,,,,,,f,yesOrNo_prac,,,,1,,,far gt,3000,,,,
+,,,,,html-keyboard-response,35,1807003,0.0-13.0-2.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,584,536,296,1,fallScene,TRUE,,,,,,
+,,,,,html-keyboard-response,36,1807837,0.0-13.0-2.0-1.2,,,,passed,,829,,,,,,,,,,,,,,f,yesOrNo_prac,,,,1,,,close gt,3000,,,,
+,,,,,html-keyboard-response,37,1809315,0.0-13.0-3.0,,,,passed,,1476,,,,,,,,,,,,,"<p><span style=""font-size:40px;"">Practice BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,38,1810871,0.0-13.0-4.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,441,500,317,6,fallScene,TRUE,,,,,,
+,,,,,html-keyboard-response,39,1811628,0.0-13.0-4.0-1.0,,,,passed,,753,,,,,,,,,,,,,,j,yesOrNo_prac,,,,6,,,gt,1000,,,,
+,,,,,html-keyboard-response,40,1813205,0.0-13.0-4.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,660,610,263,4,fallScene,FALSE,,,,,,
+,,,,,html-keyboard-response,41,1813788,0.0-13.0-4.0-1.1,,,,passed,,579,,,,,,,,,,,,,,f,yesOrNo_prac,,,,4,,,far gt,1000,,,,
+,,,,,html-keyboard-response,42,1815889,0.0-13.0-4.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,340,334,350,3,fallScene,TRUE,,,,,,
+,,,,,html-keyboard-response,43,1816610,0.0-13.0-4.0-1.2,,,,passed,,718,,,,,,,,,,,,,,j,yesOrNo_prac,,,,3,,,close gt,1000,,,,
+,,,,,instructions,44,1819990,0.0-13.0-5.0,,,,passed,"[{""page_index"":0,""viewing_time"":3380}]",3380,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,45,1821353,0.0-13.0-6.0,,,,passed,,1361,,,,,,,,,,,,,"<p><span style=""font-size:40px;"">Practice Test BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,46,1822905,0.0-13.0-7.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,441,500,317,6,fallScene,TRUE,,,,,,
+,,,,,html-keyboard-response,47,1823451,0.0-13.0-7.0-1.0,,,,passed,,542,,,,,,,,,,,,,,j,yesOrNo_prac,,,,6,,,close gt,1000,,,,
+,,,,,html-keyboard-response,48,1825021,0.0-13.0-7.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,340,390,263,4,fallScene,TRUE,,,,,,
+,,,,,html-keyboard-response,49,1825735,0.0-13.0-7.0-1.1,,,,passed,,711,,,,,,,,,,,,,,f,yesOrNo_prac,,,,4,,,far gt,1000,,,,
+,,,,,html-keyboard-response,50,1827305,0.0-13.0-7.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,559,586,302,5,fallScene,FALSE,,,,,,
+,,,,,html-keyboard-response,51,1827862,0.0-13.0-7.0-1.2,,,,passed,,553,,,,,,,,,,,,,,j,yesOrNo_prac,,,,5,,,gt,1000,,,,
+,,,,,html-keyboard-response,52,1828641,0.0-13.0-8.0,,,,passed,,778,,,,,,,,,,,,,"<p><span style=""font-size:40px;"">Practice Test BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p><style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,53,1830223,0.0-13.0-9.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,559,586,302,5,fallScene,FALSE,,,,,,
+,,,,,html-keyboard-response,54,1831927,0.0-13.0-9.0-1.0,,,,passed,,1701,,,,,,,,,,,,,,j,yesOrNo_prac,,,,5,,,far gt,3000,,,,
+,,,,,html-keyboard-response,55,1833506,0.0-13.0-9.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,416,365,249,2,fallScene,FALSE,,,,,,
+,,,,,html-keyboard-response,56,1834458,0.0-13.0-9.0-1.1,,,,passed,,943,,,,,,,,,,,,,,j,yesOrNo_prac,,,,2,,,gt,3000,,,,
+,,,,,html-keyboard-response,57,1836040,0.0-13.0-9.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling_prac,340,390,263,4,fallScene,TRUE,,,,,,
+,,,,,html-keyboard-response,58,1837592,0.0-13.0-9.0-1.2,,,,passed,,1549,,,,,,,,,,,,,,j,yesOrNo_prac,,,,4,,,close gt,3000,,,,
+,,,,,instructions,59,1842287,0.0-14.0,,,,passed,"[{""page_index"":0,""viewing_time"":4693}]",4693,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,60,1866567,0.0-15.0,,,,passed,,24279,,,,,,,,,,,,,"<p><span style=""font-size:40px;"">BLOCK 1</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,61,1868225,0.0-16.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,FALSE,,,,,,1
+,,,,,html-keyboard-response,62,1870488,0.0-16.0-1.0,,,,passed,,2258,,,,,,,,,,,,,,f,yesOrNo,,,,6,,,gt,3000,,,,1
+,,,,,html-keyboard-response,63,1872042,0.0-16.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,FALSE,,,,,,2
+,,,,,html-keyboard-response,64,1873615,0.0-16.0-1.1,,,,passed,,1571,,,,,,,,,,,,,,j,yesOrNo,,,,12,,,gt,3000,,,,2
+,,,,,html-keyboard-response,65,1875191,0.0-16.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,TRUE,,,,,,3
+,,,,,html-keyboard-response,66,1877946,0.0-16.0-1.2,,,,passed,,2751,,,,,,,,,,,,,,f,yesOrNo,,,,7,,,mid,3000,,,,3
+,,,,,html-keyboard-response,67,1879509,0.0-16.0-0.3,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,FALSE,,,,,,4
+,,,,,html-keyboard-response,68,1881432,0.0-16.0-1.3,,,,passed,,1920,,,,,,,,,,,,,,j,yesOrNo,,,,5,,,mid,3000,,,,4
+,,,,,html-keyboard-response,69,1882992,0.0-16.0-0.4,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,FALSE,,,,,,5
+,,,,,html-keyboard-response,70,1884121,0.0-16.0-1.4,,,,passed,,1125,,,,,,,,,,,,,,j,yesOrNo,,,,3,,,lp,3000,,,,5
+,,,,,html-keyboard-response,71,1885693,0.0-16.0-0.5,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,FALSE,,,,,,6
+,,,,,html-keyboard-response,72,1886566,0.0-16.0-1.5,,,,passed,,869,,,,,,,,,,,,,,j,yesOrNo,,,,7,,,gt,3000,,,,6
+,,,,,html-keyboard-response,73,1888125,0.0-16.0-0.6,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,FALSE,,,,,,7
+,,,,,html-keyboard-response,74,1889205,0.0-16.0-1.6,,,,passed,,1076,,,,,,,,,,,,,,f,yesOrNo,,,,12,,,mid,3000,,,,7
+,,,,,html-keyboard-response,75,1890759,0.0-16.0-0.7,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,FALSE,,,,,,8
+,,,,,html-keyboard-response,76,1893716,0.0-16.0-1.7,,,,passed,,2953,,,,,,,,,,,,,,f,yesOrNo,,,,4,,,mid,3000,,,,8
+,,,,,html-keyboard-response,77,1895376,0.0-16.0-0.8,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,FALSE,,,,,,9
+,,,,,html-keyboard-response,78,1896545,0.0-16.0-1.8,,,,passed,,1165,,,,,,,,,,,,,,j,yesOrNo,,,,6,,,lp,3000,,,,9
+,,,,,html-keyboard-response,79,1898561,0.0-16.0-0.9,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,FALSE,,,,,,10
+,,,,,html-keyboard-response,80,1899811,0.0-16.0-1.9,,,,passed,,1246,,,,,,,,,,,,,,f,yesOrNo,,,,10,,,mid,3000,,,,10
+,,,,,html-keyboard-response,81,1901827,0.0-16.0-0.10,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,FALSE,,,,,,11
+,,,,,html-keyboard-response,82,1902611,0.0-16.0-1.10,,,,passed,,780,,,,,,,,,,,,,,j,yesOrNo,,,,8,,,mid,3000,,,,11
+,,,,,html-keyboard-response,83,1904177,0.0-16.0-0.11,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,TRUE,,,,,,12
+,,,,,html-keyboard-response,84,1904963,0.0-16.0-1.11,,,,passed,,782,,,,,,,,,,,,,,j,yesOrNo,,,,4,,,lp,3000,,,,12
+,,,,,html-keyboard-response,85,1906628,0.0-16.0-0.12,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,TRUE,,,,,,13
+,,,,,html-keyboard-response,86,1907465,0.0-16.0-1.12,,,,passed,,833,,,,,,,,,,,,,,f,yesOrNo,,,,6,,,mid,3000,,,,13
+,,,,,html-keyboard-response,87,1909262,0.0-16.0-0.13,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,FALSE,,,,,,14
+,,,,,html-keyboard-response,88,1910798,0.0-16.0-1.13,,,,passed,,1534,,,,,,,,,,,,,,j,yesOrNo,,,,2,,,mid,3000,,,,14
+,,,,,html-keyboard-response,89,1912362,0.0-16.0-0.14,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,TRUE,,,,,,15
+,,,,,html-keyboard-response,90,1912893,0.0-16.0-1.14,,,,passed,,529,,,,,,,,,,,,,,f,yesOrNo,,,,1,,,gt,3000,,,,15
+,,,,,html-keyboard-response,91,1914444,0.0-16.0-0.15,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,FALSE,,,,,,16
+,,,,,html-keyboard-response,92,1914930,0.0-16.0-1.15,,,,passed,,483,,,,,,,,,,,,,,j,yesOrNo,,,,1,,,mid,3000,,,,16
+,,,,,html-keyboard-response,93,1916495,0.0-16.0-0.16,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,FALSE,,,,,,17
+,,,,,html-keyboard-response,94,1916857,0.0-16.0-1.16,,,,passed,,360,,,,,,,,,,,,,,j,yesOrNo,,,,4,,,gt,3000,,,,17
+,,,,,html-keyboard-response,95,1918511,0.0-16.0-0.17,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,FALSE,,,,,,18
+,,,,,html-keyboard-response,96,1918736,0.0-16.0-1.17,,,,passed,,221,,,,,,,,,,,,,,f,yesOrNo,,,,6,,,mid,3000,,,,18
+,,,,,html-keyboard-response,97,1920311,0.0-16.0-0.18,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,FALSE,,,,,,19
+,,,,,html-keyboard-response,98,1920581,0.0-16.0-1.18,,,,passed,,266,,,,,,,,,,,,,,j,yesOrNo,,,,7,,,mid,3000,,,,19
+,,,,,html-keyboard-response,99,1922145,0.0-16.0-0.19,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,FALSE,,,,,,20
+,,,,,html-keyboard-response,100,1924166,0.0-16.0-1.19,,,,passed,,2018,,,,,,,,,,,,,,j,yesOrNo,,,,11,,,mid,3000,,,,20
+,,,,,html-keyboard-response,101,1925745,0.0-16.0-0.20,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,TRUE,,,,,,21
+,,,,,html-keyboard-response,102,1926472,0.0-16.0-1.20,,,,passed,,723,,,,,,,,,,,,,,j,yesOrNo,,,,7,,,lp,3000,,,,21
+,,,,,html-keyboard-response,103,1928029,0.0-16.0-0.21,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,TRUE,,,,,,22
+,,,,,html-keyboard-response,104,1928747,0.0-16.0-1.21,,,,passed,,715,,,,,,,,,,,,,,j,yesOrNo,,,,12,,,gt,3000,,,,22
+,,,,,html-keyboard-response,105,1930312,0.0-16.0-0.22,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,TRUE,,,,,,23
+,,,,,html-keyboard-response,106,1931181,0.0-16.0-1.22,,,,passed,,865,,,,,,,,,,,,,,f,yesOrNo,,,,12,,,lp,3000,,,,23
+,,,,,html-keyboard-response,107,1932745,0.0-16.0-0.23,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,TRUE,,,,,,24
+,,,,,html-keyboard-response,108,1933352,0.0-16.0-1.23,,,,passed,,603,,,,,,,,,,,,,,j,yesOrNo,,,,11,,,lp,3000,,,,24
+,,,,,html-keyboard-response,109,1934694,0.0-17.0,,,,passed,,1341,,,,,,,,,,,,,"<p><span style=""font-size:40px;"">BLOCK 2</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,110,1936345,0.0-18.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,TRUE,,,,,,25
+,,,,,html-keyboard-response,111,1936982,0.0-18.0-1.0,,,,passed,,633,,,,,,,,,,,,,,f,yesOrNo,,,,6,,,lp,1000,,,,25
+,,,,,html-keyboard-response,112,1938780,0.0-18.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,FALSE,,,,,,26
+,,,,,html-keyboard-response,113,1939498,0.0-18.0-1.1,,,,passed,,715,,,,,,,,,,,,,,j,yesOrNo,,,,2,,,lp,1000,,,,26
+,,,,,html-keyboard-response,114,1941295,0.0-18.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,FALSE,,,,,,27
+,,,,,html-keyboard-response,115,1941869,0.0-18.0-1.2,,,,passed,,570,,,,,,,,,,,,,,f,yesOrNo,,,,2,,,lp,1000,,,,27
+,,,,,html-keyboard-response,116,1943446,0.0-18.0-0.3,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,TRUE,,,,,,28
+,,,,,html-keyboard-response,117,1944162,0.0-18.0-1.3,,,,passed,,714,,,,,,,,,,,,,,j,yesOrNo,,,,7,,,mid,1000,,,,28
+,,,,,html-keyboard-response,118,1946168,0.0-18.0-0.4,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,FALSE,,,,,,29
+,,,,,html-keyboard-response,119,1946759,0.0-18.0-1.4,,,,passed,,588,,,,,,,,,,,,,,f,yesOrNo,,,,10,,,mid,1000,,,,29
+,,,,,html-keyboard-response,120,1948313,0.0-18.0-0.5,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,TRUE,,,,,,30
+,,,,,html-keyboard-response,121,1948963,0.0-18.0-1.5,,,,passed,,648,,,,,,,,,,,,,,j,yesOrNo,,,,11,,,mid,1000,,,,30
+,,,,,html-keyboard-response,122,1950463,0.0-18.0-0.6,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,FALSE,,,,,,31
+,,,,,html-keyboard-response,123,1951467,0.0-18.0-1.6,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,9,,,gt,1000,,,,31
+,,,,,html-keyboard-response,124,1953480,0.0-18.0-0.7,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,FALSE,,,,,,32
+,,,,,html-keyboard-response,125,1954103,0.0-18.0-1.7,,,,passed,,619,,,,,,,,,,,,,,f,yesOrNo,,,,8,,,lp,1000,,,,32
+,,,,,html-keyboard-response,126,1955765,0.0-18.0-0.8,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,TRUE,,,,,,33
+,,,,,html-keyboard-response,127,1956331,0.0-18.0-1.8,,,,passed,,564,,,,,,,,,,,,,,j,yesOrNo,,,,6,,,gt,1000,,,,33
+,,,,,html-keyboard-response,128,1957896,0.0-18.0-0.9,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,TRUE,,,,,,34
+,,,,,html-keyboard-response,129,1958402,0.0-18.0-1.9,,,,passed,,502,,,,,,,,,,,,,,f,yesOrNo,,,,3,,,gt,1000,,,,34
+,,,,,html-keyboard-response,130,1959964,0.0-18.0-0.10,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,FALSE,,,,,,35
+,,,,,html-keyboard-response,131,1960633,0.0-18.0-1.10,,,,passed,,665,,,,,,,,,,,,,,f,yesOrNo,,,,12,,,lp,1000,,,,35
+,,,,,html-keyboard-response,132,1962197,0.0-18.0-0.11,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,TRUE,,,,,,36
+,,,,,html-keyboard-response,133,1962752,0.0-18.0-1.11,,,,passed,,552,,,,,,,,,,,,,,j,yesOrNo,,,,11,,,mid,1000,,,,36
+,,,,,html-keyboard-response,134,1964330,0.0-18.0-0.12,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,TRUE,,,,,,37
+,,,,,html-keyboard-response,135,1964918,0.0-18.0-1.12,,,,passed,,585,,,,,,,,,,,,,,j,yesOrNo,,,,7,,,gt,1000,,,,37
+,,,,,html-keyboard-response,136,1966481,0.0-18.0-0.13,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,FALSE,,,,,,38
+,,,,,html-keyboard-response,137,1967020,0.0-18.0-1.13,,,,passed,,537,,,,,,,,,,,,,,j,yesOrNo,,,,12,,,mid,1000,,,,38
+,,,,,html-keyboard-response,138,1969030,0.0-18.0-0.14,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,TRUE,,,,,,39
+,,,,,html-keyboard-response,139,1969658,0.0-18.0-1.14,,,,passed,,624,,,,,,,,,,,,,,f,yesOrNo,,,,10,,,mid,1000,,,,39
+,,,,,html-keyboard-response,140,1971214,0.0-18.0-0.15,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,TRUE,,,,,,40
+,,,,,html-keyboard-response,141,1971820,0.0-18.0-1.15,,,,passed,,602,,,,,,,,,,,,,,f,yesOrNo,,,,5,,,lp,1000,,,,40
+,,,,,html-keyboard-response,142,1973381,0.0-18.0-0.16,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,TRUE,,,,,,41
+,,,,,html-keyboard-response,143,1973946,0.0-18.0-1.16,,,,passed,,562,,,,,,,,,,,,,,j,yesOrNo,,,,11,,,gt,1000,,,,41
+,,,,,html-keyboard-response,144,1975498,0.0-18.0-0.17,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,TRUE,,,,,,42
+,,,,,html-keyboard-response,145,1976452,0.0-18.0-1.17,,,,passed,,951,,,,,,,,,,,,,,j,yesOrNo,,,,11,,,lp,1000,,,,42
+,,,,,html-keyboard-response,146,1978248,0.0-18.0-0.18,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,TRUE,,,,,,43
+,,,,,html-keyboard-response,147,1978932,0.0-18.0-1.18,,,,passed,,680,,,,,,,,,,,,,,f,yesOrNo,,,,2,,,mid,1000,,,,43
+,,,,,html-keyboard-response,148,1980498,0.0-18.0-0.19,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,FALSE,,,,,,44
+,,,,,html-keyboard-response,149,1980966,0.0-18.0-1.19,,,,passed,,465,,,,,,,,,,,,,,j,yesOrNo,,,,4,,,gt,1000,,,,44
+,,,,,html-keyboard-response,150,1982532,0.0-18.0-0.20,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,TRUE,,,,,,45
+,,,,,html-keyboard-response,151,1983064,0.0-18.0-1.20,,,,passed,,529,,,,,,,,,,,,,,f,yesOrNo,,,,11,,,gt,1000,,,,45
+,,,,,html-keyboard-response,152,1984547,0.0-18.0-0.21,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,TRUE,,,,,,46
+,,,,,html-keyboard-response,153,1985010,0.0-18.0-1.21,,,,passed,,459,,,,,,,,,,,,,,j,yesOrNo,,,,9,,,lp,1000,,,,46
+,,,,,html-keyboard-response,154,1986666,0.0-18.0-0.22,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,FALSE,,,,,,47
+,,,,,html-keyboard-response,155,1987303,0.0-18.0-1.22,,,,passed,,635,,,,,,,,,,,,,,j,yesOrNo,,,,6,,,mid,1000,,,,47
+,,,,,html-keyboard-response,156,1989098,0.0-18.0-0.23,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,TRUE,,,,,,48
+,,,,,html-keyboard-response,157,1990097,0.0-18.0-1.23,,,,passed,,995,,,,,,,,,,,,,,j,yesOrNo,,,,2,,,mid,1000,,,,48
+,,,,,html-keyboard-response,158,1995755,0.0-19.0,,,,passed,,5656,,,,,,,,,,,,,"<p><span style=""font-size:40px;"">BLOCK 3</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,159,1997332,0.0-20.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,FALSE,,,,,,49
+,,,,,html-keyboard-response,160,1998072,0.0-20.0-1.0,,,,passed,,737,,,,,,,,,,,,,,j,yesOrNo,,,,7,,,gt,1000,,,,49
+,,,,,html-keyboard-response,161,1999632,0.0-20.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,FALSE,,,,,,50
+,,,,,html-keyboard-response,162,2000636,0.0-20.0-1.1,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,4,,,lp,1000,,,,50
+,,,,,html-keyboard-response,163,2002200,0.0-20.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,FALSE,,,,,,51
+,,,,,html-keyboard-response,164,2002973,0.0-20.0-1.2,,,,passed,,770,,,,,,,,,,,,,,f,yesOrNo,,,,5,,,lp,1000,,,,51
+,,,,,html-keyboard-response,165,2004532,0.0-20.0-0.3,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,TRUE,,,,,,52
+,,,,,html-keyboard-response,166,2005154,0.0-20.0-1.3,,,,passed,,619,,,,,,,,,,,,,,j,yesOrNo,,,,5,,,gt,1000,,,,52
+,,,,,html-keyboard-response,167,2006717,0.0-20.0-0.4,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,FALSE,,,,,,53
+,,,,,html-keyboard-response,168,2007478,0.0-20.0-1.4,,,,passed,,760,,,,,,,,,,,,,,j,yesOrNo,,,,5,,,mid,1000,,,,53
+,,,,,html-keyboard-response,169,2009032,0.0-20.0-0.5,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,FALSE,,,,,,54
+,,,,,html-keyboard-response,170,2009817,0.0-20.0-1.5,,,,passed,,781,,,,,,,,,,,,,,j,yesOrNo,,,,3,,,lp,1000,,,,54
+,,,,,html-keyboard-response,171,2011383,0.0-20.0-0.6,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,TRUE,,,,,,55
+,,,,,html-keyboard-response,172,2012387,0.0-20.0-1.6,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,3,,,mid,1000,,,,55
+,,,,,html-keyboard-response,173,2013950,0.0-20.0-0.7,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,TRUE,,,,,,56
+,,,,,html-keyboard-response,174,2014653,0.0-20.0-1.7,,,,passed,,699,,,,,,,,,,,,,,j,yesOrNo,,,,4,,,gt,1000,,,,56
+,,,,,html-keyboard-response,175,2016217,0.0-20.0-0.8,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,FALSE,,,,,,57
+,,,,,html-keyboard-response,176,2016849,0.0-20.0-1.8,,,,passed,,629,,,,,,,,,,,,,,f,yesOrNo,,,,12,,,lp,1000,,,,57
+,,,,,html-keyboard-response,177,2018400,0.0-20.0-0.9,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,TRUE,,,,,,58
+,,,,,html-keyboard-response,178,2019229,0.0-20.0-1.9,,,,passed,,825,,,,,,,,,,,,,,j,yesOrNo,,,,3,,,mid,1000,,,,58
+,,,,,html-keyboard-response,179,2020783,0.0-20.0-0.10,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,TRUE,,,,,,59
+,,,,,html-keyboard-response,180,2021786,0.0-20.0-1.10,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,1,,,lp,1000,,,,59
+,,,,,html-keyboard-response,181,2023367,0.0-20.0-0.11,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,FALSE,,,,,,60
+,,,,,html-keyboard-response,182,2024371,0.0-20.0-1.11,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,7,,,mid,1000,,,,60
+,,,,,html-keyboard-response,183,2026384,0.0-20.0-0.12,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,FALSE,,,,,,61
+,,,,,html-keyboard-response,184,2027388,0.0-20.0-1.12,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,10,,,gt,1000,,,,61
+,,,,,html-keyboard-response,185,2028884,0.0-20.0-0.13,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,FALSE,,,,,,62
+,,,,,html-keyboard-response,186,2029458,0.0-20.0-1.13,,,,passed,,570,,,,,,,,,,,,,,f,yesOrNo,,,,9,,,lp,1000,,,,62
+,,,,,html-keyboard-response,187,2031018,0.0-20.0-0.14,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,FALSE,,,,,,63
+,,,,,html-keyboard-response,188,2031837,0.0-20.0-1.14,,,,passed,,815,,,,,,,,,,,,,,j,yesOrNo,,,,3,,,gt,1000,,,,63
+,,,,,html-keyboard-response,189,2033401,0.0-20.0-0.15,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,FALSE,,,,,,64
+,,,,,html-keyboard-response,190,2034405,0.0-20.0-1.15,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,1,,,lp,1000,,,,64
+,,,,,html-keyboard-response,191,2035968,0.0-20.0-0.16,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,TRUE,,,,,,65
+,,,,,html-keyboard-response,192,2036830,0.0-20.0-1.16,,,,passed,,859,,,,,,,,,,,,,,j,yesOrNo,,,,3,,,lp,1000,,,,65
+,,,,,html-keyboard-response,193,2038384,0.0-20.0-0.17,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,FALSE,,,,,,66
+,,,,,html-keyboard-response,194,2039189,0.0-20.0-1.17,,,,passed,,801,,,,,,,,,,,,,,j,yesOrNo,,,,11,,,lp,1000,,,,66
+,,,,,html-keyboard-response,195,2040750,0.0-20.0-0.18,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,TRUE,,,,,,67
+,,,,,html-keyboard-response,196,2041409,0.0-20.0-1.18,,,,passed,,658,,,,,,,,,,,,,,f,yesOrNo,,,,1,,,gt,1000,,,,67
+,,,,,html-keyboard-response,197,2042969,0.0-20.0-0.19,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,TRUE,,,,,,68
+,,,,,html-keyboard-response,198,2043756,0.0-20.0-1.19,,,,passed,,784,,,,,,,,,,,,,,f,yesOrNo,,,,4,,,mid,1000,,,,68
+,,,,,html-keyboard-response,199,2045252,0.0-20.0-0.20,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,FALSE,,,,,,69
+,,,,,html-keyboard-response,200,2046121,0.0-20.0-1.20,,,,passed,,866,,,,,,,,,,,,,,j,yesOrNo,,,,9,,,mid,1000,,,,69
+,,,,,html-keyboard-response,201,2047685,0.0-20.0-0.21,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,TRUE,,,,,,70
+,,,,,html-keyboard-response,202,2048350,0.0-20.0-1.21,,,,passed,,662,,,,,,,,,,,,,,j,yesOrNo,,,,12,,,gt,1000,,,,70
+,,,,,html-keyboard-response,203,2049902,0.0-20.0-0.22,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,TRUE,,,,,,71
+,,,,,html-keyboard-response,204,2050572,0.0-20.0-1.22,,,,passed,,667,,,,,,,,,,,,,,f,yesOrNo,,,,1,,,mid,1000,,,,71
+,,,,,html-keyboard-response,205,2052136,0.0-20.0-0.23,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,TRUE,,,,,,72
+,,,,,html-keyboard-response,206,2052739,0.0-20.0-1.23,,,,passed,,602,,,,,,,,,,,,,,j,yesOrNo,,,,5,,,gt,1000,,,,72
+,,,,,html-keyboard-response,207,2053635,0.0-21.0,,,,passed,,895,,,,,,,,,,,,,"<p><span style=""font-size:40px;"">BLOCK 4</span></p><p><span style=""font-size:25px;"">You have <strong>1 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,208,2055651,0.0-22.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,TRUE,,,,,,73
+,,,,,html-keyboard-response,209,2056297,0.0-22.0-1.0,,,,passed,,642,,,,,,,,,,,,,,f,yesOrNo,,,,10,,,lp,1000,,,,73
+,,,,,html-keyboard-response,210,2058303,0.0-22.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,FALSE,,,,,,74
+,,,,,html-keyboard-response,211,2058972,0.0-22.0-1.1,,,,passed,,666,,,,,,,,,,,,,,j,yesOrNo,,,,10,,,lp,1000,,,,74
+,,,,,html-keyboard-response,212,2060536,0.0-22.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,TRUE,,,,,,75
+,,,,,html-keyboard-response,213,2061173,0.0-22.0-1.2,,,,passed,,633,,,,,,,,,,,,,,j,yesOrNo,,,,12,,,mid,1000,,,,75
+,,,,,html-keyboard-response,214,2063185,0.0-22.0-0.3,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,TRUE,,,,,,76
+,,,,,html-keyboard-response,215,2063800,0.0-22.0-1.3,,,,passed,,611,,,,,,,,,,,,,,j,yesOrNo,,,,8,,,mid,1000,,,,76
+,,,,,html-keyboard-response,216,2065354,0.0-22.0-0.4,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,TRUE,,,,,,77
+,,,,,html-keyboard-response,217,2066127,0.0-22.0-1.4,,,,passed,,770,,,,,,,,,,,,,,f,yesOrNo,,,,1,,,mid,1000,,,,77
+,,,,,html-keyboard-response,218,2068135,0.0-22.0-0.5,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,FALSE,,,,,,78
+,,,,,html-keyboard-response,219,2069074,0.0-22.0-1.5,,,,passed,,935,,,,,,,,,,,,,,j,yesOrNo,,,,8,,,gt,1000,,,,78
+,,,,,html-keyboard-response,220,2070653,0.0-22.0-0.6,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,FALSE,,,,,,79
+,,,,,html-keyboard-response,221,2071440,0.0-22.0-1.6,,,,passed,,783,,,,,,,,,,,,,,f,yesOrNo,,,,7,,,lp,1000,,,,79
+,,,,,html-keyboard-response,222,2073011,0.0-22.0-0.7,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,TRUE,,,,,,80
+,,,,,html-keyboard-response,223,2073594,0.0-22.0-1.7,,,,passed,,582,,,,,,,,,,,,,,j,yesOrNo,,,,12,,,gt,1000,,,,80
+,,,,,html-keyboard-response,224,2075387,0.0-22.0-0.8,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,TRUE,,,,,,81
+,,,,,html-keyboard-response,225,2076390,0.0-22.0-1.8,,,,passed,,999,,,,,,,,,,,,,,j,yesOrNo,,,,2,,,gt,1000,,,,81
+,,,,,html-keyboard-response,226,2077954,0.0-22.0-0.9,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,FALSE,,,,,,82
+,,,,,html-keyboard-response,227,2078682,0.0-22.0-1.9,,,,passed,,725,,,,,,,,,,,,,,f,yesOrNo,,,,4,,,mid,1000,,,,82
+,,,,,html-keyboard-response,228,2080688,0.0-22.0-0.10,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,TRUE,,,,,,83
+,,,,,html-keyboard-response,229,2081472,0.0-22.0-1.10,,,,passed,,782,,,,,,,,,,,,,,f,yesOrNo,,,,8,,,gt,1000,,,,83
+,,,,,html-keyboard-response,230,2083137,0.0-22.0-0.11,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,FALSE,,,,,,84
+,,,,,html-keyboard-response,231,2083718,0.0-22.0-1.11,,,,passed,,578,,,,,,,,,,,,,,j,yesOrNo,,,,6,,,lp,1000,,,,84
+,,,,,html-keyboard-response,232,2085270,0.0-22.0-0.12,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,FALSE,,,,,,85
+,,,,,html-keyboard-response,233,2085951,0.0-22.0-1.12,,,,passed,,677,,,,,,,,,,,,,,f,yesOrNo,,,,4,,,lp,1000,,,,85
+,,,,,html-keyboard-response,234,2087505,0.0-22.0-0.13,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,FALSE,,,,,,86
+,,,,,html-keyboard-response,235,2088078,0.0-22.0-1.13,,,,passed,,570,,,,,,,,,,,,,,j,yesOrNo,,,,5,,,mid,1000,,,,86
+,,,,,html-keyboard-response,236,2089571,0.0-22.0-0.14,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,TRUE,,,,,,87
+,,,,,html-keyboard-response,237,2090254,0.0-22.0-1.14,,,,passed,,680,,,,,,,,,,,,,,f,yesOrNo,,,,9,,,mid,1000,,,,87
+,,,,,html-keyboard-response,238,2092039,0.0-22.0-0.15,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,TRUE,,,,,,88
+,,,,,html-keyboard-response,239,2092832,0.0-22.0-1.15,,,,passed,,790,,,,,,,,,,,,,,j,yesOrNo,,,,2,,,gt,1000,,,,88
+,,,,,html-keyboard-response,240,2094322,0.0-22.0-0.16,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,FALSE,,,,,,89
+,,,,,html-keyboard-response,241,2094866,0.0-22.0-1.16,,,,passed,,541,,,,,,,,,,,,,,j,yesOrNo,,,,9,,,gt,1000,,,,89
+,,,,,html-keyboard-response,242,2096521,0.0-22.0-0.17,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,TRUE,,,,,,90
+,,,,,html-keyboard-response,243,2097125,0.0-22.0-1.17,,,,passed,,601,,,,,,,,,,,,,,j,yesOrNo,,,,6,,,gt,1000,,,,90
+,,,,,html-keyboard-response,244,2099138,0.0-22.0-0.18,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,TRUE,,,,,,91
+,,,,,html-keyboard-response,245,2099858,0.0-22.0-1.18,,,,passed,,715,,,,,,,,,,,,,,f,yesOrNo,,,,10,,,gt,1000,,,,91
+,,,,,html-keyboard-response,246,2101438,0.0-22.0-0.19,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,FALSE,,,,,,92
+,,,,,html-keyboard-response,247,2102256,0.0-22.0-1.19,,,,passed,,814,,,,,,,,,,,,,,f,yesOrNo,,,,7,,,lp,1000,,,,92
+,,,,,html-keyboard-response,248,2103921,0.0-22.0-0.20,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,TRUE,,,,,,93
+,,,,,html-keyboard-response,249,2104925,0.0-22.0-1.20,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,6,,,mid,1000,,,,93
+,,,,,html-keyboard-response,250,2106489,0.0-22.0-0.21,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,FALSE,,,,,,94
+,,,,,html-keyboard-response,251,2107060,0.0-22.0-1.21,,,,passed,,568,,,,,,,,,,,,,,j,yesOrNo,,,,1,,,gt,1000,,,,94
+,,,,,html-keyboard-response,252,2109072,0.0-22.0-0.22,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,FALSE,,,,,,95
+,,,,,html-keyboard-response,253,2110076,0.0-22.0-1.22,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,8,,,mid,1000,,,,95
+,,,,,html-keyboard-response,254,2112089,0.0-22.0-0.23,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,TRUE,,,,,,96
+,,,,,html-keyboard-response,255,2112775,0.0-22.0-1.23,,,,passed,,682,,,,,,,,,,,,,,f,yesOrNo,,,,8,,,lp,1000,,,,96
+,,,,,html-keyboard-response,256,2126675,0.0-23.0,,,,passed,,13899,,,,,,,,,,,,,"<p><span style=""font-size:40px;"">BLOCK 5</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,257,2128239,0.0-24.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,TRUE,,,,,,97
+,,,,,html-keyboard-response,258,2131243,0.0-24.0-1.0,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,11,,,gt,3000,,,,97
+,,,,,html-keyboard-response,259,2132807,0.0-24.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,TRUE,,,,,,98
+,,,,,html-keyboard-response,260,2133555,0.0-24.0-1.1,,,,passed,,744,,,,,,,,,,,,,,f,yesOrNo,,,,5,,,lp,3000,,,,98
+,,,,,html-keyboard-response,261,2135042,0.0-24.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,FALSE,,,,,,99
+,,,,,html-keyboard-response,262,2137296,0.0-24.0-1.2,,,,passed,,2251,,,,,,,,,,,,,,j,yesOrNo,,,,9,,,lp,3000,,,,99
+,,,,,html-keyboard-response,263,2139307,0.0-24.0-0.3,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,TRUE,,,,,,100
+,,,,,html-keyboard-response,264,2141279,0.0-24.0-1.3,,,,passed,,1968,,,,,,,,,,,,,,f,yesOrNo,,,,10,,,mid,3000,,,,100
+,,,,,html-keyboard-response,265,2143075,0.0-24.0-0.4,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,FALSE,,,,,,101
+,,,,,html-keyboard-response,266,2143997,0.0-24.0-1.4,,,,passed,,919,,,,,,,,,,,,,,f,yesOrNo,,,,2,,,lp,3000,,,,101
+,,,,,html-keyboard-response,267,2145558,0.0-24.0-0.5,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,FALSE,,,,,,102
+,,,,,html-keyboard-response,268,2146931,0.0-24.0-1.5,,,,passed,,1370,,,,,,,,,,,,,,j,yesOrNo,,,,1,,,lp,3000,,,,102
+,,,,,html-keyboard-response,269,2148492,0.0-24.0-0.6,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,FALSE,,,,,,103
+,,,,,html-keyboard-response,270,2149210,0.0-24.0-1.6,,,,passed,,716,,,,,,,,,,,,,,j,yesOrNo,,,,3,,,gt,3000,,,,103
+,,,,,html-keyboard-response,271,2150707,0.0-24.0-0.7,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,FALSE,,,,,,104
+,,,,,html-keyboard-response,272,2153673,0.0-24.0-1.7,,,,passed,,2964,,,,,,,,,,,,,,f,yesOrNo,,,,9,,,mid,3000,,,,104
+,,,,,html-keyboard-response,273,2155225,0.0-24.0-0.8,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,TRUE,,,,,,105
+,,,,,html-keyboard-response,274,2157116,0.0-24.0-1.8,,,,passed,,1888,,,,,,,,,,,,,,j,yesOrNo,,,,4,,,lp,3000,,,,105
+,,,,,html-keyboard-response,275,2158675,0.0-24.0-0.9,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,FALSE,,,,,,106
+,,,,,html-keyboard-response,276,2159362,0.0-24.0-1.9,,,,passed,,683,,,,,,,,,,,,,,j,yesOrNo,,,,5,,,gt,3000,,,,106
+,,,,,html-keyboard-response,277,2161376,0.0-24.0-0.10,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,TRUE,,,,,,107
+,,,,,html-keyboard-response,278,2162873,0.0-24.0-1.10,,,,passed,,1494,,,,,,,,,,,,,,j,yesOrNo,,,,8,,,gt,3000,,,,107
+,,,,,html-keyboard-response,279,2164360,0.0-24.0-0.11,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,FALSE,,,,,,108
+,,,,,html-keyboard-response,280,2165010,0.0-24.0-1.11,,,,passed,,647,,,,,,,,,,,,,,j,yesOrNo,,,,9,,,gt,3000,,,,108
+,,,,,html-keyboard-response,281,2166576,0.0-24.0-0.12,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,FALSE,,,,,,109
+,,,,,html-keyboard-response,282,2167382,0.0-24.0-1.12,,,,passed,,803,,,,,,,,,,,,,,j,yesOrNo,,,,3,,,mid,3000,,,,109
+,,,,,html-keyboard-response,283,2168943,0.0-24.0-0.13,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,FALSE,,,,,,110
+,,,,,html-keyboard-response,284,2170445,0.0-24.0-1.13,,,,passed,,1498,,,,,,,,,,,,,,j,yesOrNo,,,,12,,,lp,3000,,,,110
+,,,,,html-keyboard-response,285,2172009,0.0-24.0-0.14,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,TRUE,,,,,,111
+,,,,,html-keyboard-response,286,2173680,0.0-24.0-1.14,,,,passed,,1666,,,,,,,,,,,,,,j,yesOrNo,,,,1,,,lp,3000,,,,111
+,,,,,html-keyboard-response,287,2175243,0.0-24.0-0.15,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,TRUE,,,,,,112
+,,,,,html-keyboard-response,288,2178247,0.0-24.0-1.15,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,5,,,mid,3000,,,,112
+,,,,,html-keyboard-response,289,2180260,0.0-24.0-0.16,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,FALSE,,,,,,113
+,,,,,html-keyboard-response,290,2181261,0.0-24.0-1.16,,,,passed,,998,,,,,,,,,,,,,,j,yesOrNo,,,,10,,,gt,3000,,,,113
+,,,,,html-keyboard-response,291,2182827,0.0-24.0-0.17,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,TRUE,,,,,,114
+,,,,,html-keyboard-response,292,2183673,0.0-24.0-1.17,,,,passed,,842,,,,,,,,,,,,,,j,yesOrNo,,,,11,,,gt,3000,,,,114
+,,,,,html-keyboard-response,293,2185677,0.0-24.0-0.18,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,TRUE,,,,,,115
+,,,,,html-keyboard-response,294,2188681,0.0-24.0-1.18,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,10,,,gt,3000,,,,115
+,,,,,html-keyboard-response,295,2190692,0.0-24.0-0.19,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,TRUE,,,,,,116
+,,,,,html-keyboard-response,296,2193696,0.0-24.0-1.19,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,8,,,mid,3000,,,,116
+,,,,,html-keyboard-response,297,2195261,0.0-24.0-0.20,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,FALSE,,,,,,117
+,,,,,html-keyboard-response,298,2198266,0.0-24.0-1.20,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,3,,,lp,3000,,,,117
+,,,,,html-keyboard-response,299,2200278,0.0-24.0-0.21,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,FALSE,,,,,,118
+,,,,,html-keyboard-response,300,2202473,0.0-24.0-1.21,,,,passed,,2192,,,,,,,,,,,,,,f,yesOrNo,,,,8,,,lp,3000,,,,118
+,,,,,html-keyboard-response,301,2204028,0.0-24.0-0.22,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,TRUE,,,,,,119
+,,,,,html-keyboard-response,302,2205579,0.0-24.0-1.22,,,,passed,,1547,,,,,,,,,,,,,,j,yesOrNo,,,,11,,,mid,3000,,,,119
+,,,,,html-keyboard-response,303,2207244,0.0-24.0-0.23,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,TRUE,,,,,,120
+,,,,,html-keyboard-response,304,2209629,0.0-24.0-1.23,,,,passed,,2381,,,,,,,,,,,,,,j,yesOrNo,,,,6,,,gt,3000,,,,120
+,,,,,html-keyboard-response,305,2211229,0.0-25.0,,,,passed,,1599,,,,,,,,,,,,,"<p><span style=""font-size:40px;"">BLOCK 6</span></p><p><span style=""font-size:25px;"">You have <strong>3 second(s)</strong> to respond to the following trials.</span><br></p><p></p> <!-- Blank line -->
+                <p id=""blinking-text"" style=""font-weight; animation: blink 2s infinite;"">Press Space to continue</p>
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+                </style></p>", ,,,,,,,,,,,,,
+,,,,,html-keyboard-response,306,2212812,0.0-26.0-0.0,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,FALSE,,,,,,121
+,,,,,html-keyboard-response,307,2213998,0.0-26.0-1.0,,,,passed,,1183,,,,,,,,,,,,,,j,yesOrNo,,,,7,,,gt,3000,,,,121
+,,,,,html-keyboard-response,308,2215562,0.0-26.0-0.1,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,575.4211431702997,266.76,12,fallScene,FALSE,,,,,,122
+,,,,,html-keyboard-response,309,2216949,0.0-26.0-1.1,,,,passed,,1383,,,,,,,,,,,,,,f,yesOrNo,,,,12,,,mid,3000,,,,122
+,,,,,html-keyboard-response,310,2218513,0.0-26.0-0.2,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,TRUE,,,,,,123
+,,,,,html-keyboard-response,311,2221517,0.0-26.0-1.2,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,5,,,lp,3000,,,,123
+,,,,,html-keyboard-response,312,2223313,0.0-26.0-0.3,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,TRUE,,,,,,124
+,,,,,html-keyboard-response,313,2226318,0.0-26.0-1.3,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,2,,,lp,3000,,,,124
+,,,,,html-keyboard-response,314,2227880,0.0-26.0-0.4,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,TRUE,,,,,,125
+,,,,,html-keyboard-response,315,2229203,0.0-26.0-1.4,,,,passed,,1320,,,,,,,,,,,,,,j,yesOrNo,,,,4,,,gt,3000,,,,125
+,,,,,html-keyboard-response,316,2230764,0.0-26.0-0.5,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,650.0211431702996,404.58000000000004,11,fallScene,FALSE,,,,,,126
+,,,,,html-keyboard-response,317,2233768,0.0-26.0-1.5,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,11,,,lp,3000,,,,126
+,,,,,html-keyboard-response,318,2235563,0.0-26.0-0.6,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,TRUE,,,,,,127
+,,,,,html-keyboard-response,319,2236742,0.0-26.0-1.6,,,,passed,,1176,,,,,,,,,,,,,,j,yesOrNo,,,,2,,,gt,3000,,,,127
+,,,,,html-keyboard-response,320,2238530,0.0-26.0-0.7,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,FALSE,,,,,,128
+,,,,,html-keyboard-response,321,2239984,0.0-26.0-1.7,,,,passed,,1451,,,,,,,,,,,,,,j,yesOrNo,,,,2,,,gt,3000,,,,128
+,,,,,html-keyboard-response,322,2241481,0.0-26.0-0.8,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,TRUE,,,,,,129
+,,,,,html-keyboard-response,323,2244485,0.0-26.0-1.8,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,9,,,mid,3000,,,,129
+,,,,,html-keyboard-response,324,2246047,0.0-26.0-0.9,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,356.42114317029973,357.87,4,fallScene,FALSE,,,,,,130
+,,,,,html-keyboard-response,325,2246947,0.0-26.0-1.9,,,,passed,,897,,,,,,,,,,,,,,j,yesOrNo,,,,4,,,mid,3000,,,,130
+,,,,,html-keyboard-response,326,2248597,0.0-26.0-0.10,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,479.92114317029973,330.87,6,fallScene,TRUE,,,,,,131
+,,,,,html-keyboard-response,327,2251601,0.0-26.0-1.10,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,6,,,lp,3000,,,,131
+,,,,,html-keyboard-response,328,2253615,0.0-26.0-0.11,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,FALSE,,,,,,132
+,,,,,html-keyboard-response,329,2255200,0.0-26.0-1.11,,,,passed,,1582,,,,,,,,,,,,,,j,yesOrNo,,,,10,,,lp,3000,,,,132
+,,,,,html-keyboard-response,330,2256765,0.0-26.0-0.12,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,TRUE,,,,,,133
+,,,,,html-keyboard-response,331,2259770,0.0-26.0-1.12,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,3,,,mid,3000,,,,133
+,,,,,html-keyboard-response,332,2261348,0.0-26.0-0.13,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,553.4711431702997,282.51,7,fallScene,TRUE,,,,,,134
+,,,,,html-keyboard-response,333,2264352,0.0-26.0-1.13,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,7,,,lp,3000,,,,134
+,,,,,html-keyboard-response,334,2266365,0.0-26.0-0.14,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,FALSE,,,,,,135
+,,,,,html-keyboard-response,335,2269369,0.0-26.0-1.14,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,8,,,lp,3000,,,,135
+,,,,,html-keyboard-response,336,2270932,0.0-26.0-0.15,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,FALSE,,,,,,136
+,,,,,html-keyboard-response,337,2271750,0.0-26.0-1.15,,,,passed,,815,,,,,,,,,,,,,,j,yesOrNo,,,,1,,,gt,3000,,,,136
+,,,,,html-keyboard-response,338,2273315,0.0-26.0-0.16,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,453.67114317029973,210.33,5,fallScene,FALSE,,,,,,137
+,,,,,html-keyboard-response,339,2274079,0.0-26.0-1.16,,,,passed,,761,,,,,,,,,,,,,,j,yesOrNo,,,,5,,,gt,3000,,,,137
+,,,,,html-keyboard-response,340,2275566,0.0-26.0-0.17,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,TRUE,,,,,,138
+,,,,,html-keyboard-response,341,2276484,0.0-26.0-1.17,,,,passed,,915,,,,,,,,,,,,,,f,yesOrNo,,,,9,,,lp,3000,,,,138
+,,,,,html-keyboard-response,342,2278499,0.0-26.0-0.18,,,,passed,,,,,,,,,,,,,,,,,ballFalling,500,510.8711431702997,369.03,8,fallScene,FALSE,,,,,,139
+,,,,,html-keyboard-response,343,2279562,0.0-26.0-1.18,,,,passed,,1060,,,,,,,,,,,,,,j,yesOrNo,,,,8,,,gt,3000,,,,139
+,,,,,html-keyboard-response,344,2281050,0.0-26.0-0.19,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,667.6211431702998,201.78,9,fallScene,FALSE,,,,,,140
+,,,,,html-keyboard-response,345,2283535,0.0-26.0-1.19,,,,passed,,2481,,,,,,,,,,,,,,j,yesOrNo,,,,9,,,gt,3000,,,,140
+,,,,,html-keyboard-response,346,2285550,0.0-26.0-0.20,,,,passed,,,,,,,,,,,,,,,,,ballFalling,604.4000000000001,596.8711431702998,394.5,10,fallScene,TRUE,,,,,,141
+,,,,,html-keyboard-response,347,2288554,0.0-26.0-1.20,,,,passed,,null,,,,,,,,,,,,,,null,yesOrNo,,,,10,,,lp,3000,,,,141
+,,,,,html-keyboard-response,348,2290117,0.0-26.0-0.21,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,296.07114317029976,371.46,3,fallScene,FALSE,,,,,,142
+,,,,,html-keyboard-response,349,2291176,0.0-26.0-1.21,,,,passed,,1056,,,,,,,,,,,,,,j,yesOrNo,,,,3,,,gt,3000,,,,142
+,,,,,html-keyboard-response,350,2292732,0.0-26.0-0.22,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,379.3711431702997,245.25,1,fallScene,TRUE,,,,,,143
+,,,,,html-keyboard-response,351,2293295,0.0-26.0-1.22,,,,passed,,561,,,,,,,,,,,,,,j,yesOrNo,,,,1,,,mid,3000,,,,143
+,,,,,html-keyboard-response,352,2295083,0.0-26.0-0.23,,,,passed,,,,,,,,,,,,,,,,,ballFalling,322.3,308.07114317029976,253.89,2,fallScene,FALSE,,,,,,144
+,,,,,html-keyboard-response,353,2295757,0.0-26.0-1.23,,,,passed,,672,,,,,,,,,,,,,,j,yesOrNo,,,,2,,,mid,3000,,,,144
+,,,,,survey-text,354,2318966,0.0-27.0,,,,passed,,23206,,,,,,,,,,,,,,"{""Summary"":""please check the tip response (is the margin in the correct position??)""}",,,,,,,,,,,,,
+,,,,,survey-text,355,2326435,0.0-28.0,,,,passed,,7467,,,,,,,,,,,,,,"{""Comments"":""goood luck""}",,,,,,,,,,,,,

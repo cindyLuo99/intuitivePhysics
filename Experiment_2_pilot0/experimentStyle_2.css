@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.jspsych-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans';
+}
+
+.jspsych-display-element {
+    text-align: center;
+}
+
+#main-container_task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#canvas-container_task {
+    width: 100%;  /* adjust this as necessary */
+    height: 100%;  /* adjust this as necessary */
+    height: 75vh;
+}
+
+#prompt-container {
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.prompt-text {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: -18px; 
+}
+/* Container for No/Yes images and text */
+/* Container for the No and Yes hints */
+#hints-container {
+    position: fixed;
+    bottom: 250px; /* Position near the bottom of the screen */
+    width: 100%; /* Full width to span across the screen */
+    display: flex;
+    justify-content: space-between; /* Align "No" to the left and "Yes" to the right */
+    padding: 0 70px; /* Space from the edges */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+/* Individual hint container */
+.hint {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center; /* Center-align text and image */
+    gap: 10px; /* Space between the text and the image */
+}
+
+/* Styling for hint text */
+.hint-text {
+    font-size: 30px; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    color: #4b4946; /* Hint text color */
+    font-family: 'Open Sans', "Arial", sans-serif;
+    text-align: center; /* Center-align text */
+}
+
+/* Styling for the key image */
+.hint-image {
+    width: 80px; /* Adjust width of the key image */
+    height: 80px; /* Adjust height */
+    object-fit: contain; /* Ensure image fits without distortion */
+}
+
+
+#progress-bar-wrapper {
+    display: flex;
+    flex-direction: row; /* Arrange timer and progress bar horizontally */
+    align-items: center; /* Centers the timer and progress bar horizontally */
+    justify-content: center; /* Horizontally center the entire wrapper */
+    position: absolute;
+    top: 12%; /* Adjust the vertical position relative to the video display */
+    left: 50%;
+    transform: translateX(-44%); /* Center align horizontally */
+    z-index: 100; /* Ensure it's above other elements */
+}
+
+/* Progress bar container (gray track) */
+#progress-bar-container {
+    width: 400px; /* Increased width for better visibility */
+    height: 20px; /* Slightly taller for emphasis */
+    background-color: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 15px; /* Space between the timer and progress bar */
+}
+
+/* Shrinking progress bar (orange bar) */
+#progress-bar {
+    width: 100%; /* Start at full width */
+    height: 100%;
+    background-color: orange;
+}
+
+/* Timer display */
+#timer-display {
+    font-size: 20px; /* Larger font size for visibility */
+    margin-right: 30px;
+    color: orange;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    white-space: nowrap;
+}
