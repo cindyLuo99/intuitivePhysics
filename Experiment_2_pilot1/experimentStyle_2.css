@@ -129,8 +129,9 @@ body {
 
 /* Style for the waiting message */
 #waiting-message {
-    position: fixed;
-    top: 17%;
+    position: absolute;
+    /* top: 20%; best for chrome */
+    top: 17%; /* works with both chrome and safari */
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;

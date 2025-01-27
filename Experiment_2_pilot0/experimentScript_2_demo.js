@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     const jsPsych = initJsPsych({
-        // on_finish: () => {
-            // jsPsych.data.displayData()
-            // jsPsych.data.get().localSave('csv','mydata.csv');} // for debugging purpose
+        on_finish: () => {
+            jsPsych.data.displayData() // for debugging purpose
+            jsPsych.data.get().localSave('csv','mydata.csv');} // for debugging purpose
     })
 
     var images = ["instruction_illustration.png", "MC_7.png", "YesOrNo_instruction.png"]
@@ -111,11 +111,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const hints = document.getElementById('hints-container');
         const prompt = document.getElementById('prompt-container');
         const mainContainer = document.getElementById('main-container_task');
-
+        // Remove the waiting message
+        const msg = document.getElementById('waiting-message');
+        
         if (mainContainer) mainContainer.remove();
         if (progressBar) progressBar.remove();
         if (hints) hints.remove();
         if (prompt) prompt.remove();
+        if (msg) msg.remove();
 
         // Cleanup Matter.js engine, render, and runner
         if (render) {
@@ -134,6 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
             Matter.World.clear(engine.world);
             engine.events = {};
         }
+        
         // if (runner) {
         //     Matter.Render.stop(render);
         //     Matter.Runner.stop(runner);
@@ -231,6 +235,16 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         updateTimer(); 
+    }
+
+    function addWaitingMessage() {
+        // Create a new waiting message
+        const waitingMessage = document.createElement('div');
+        waitingMessage.id = 'waiting-message';
+        waitingMessage.innerHTML = 'Response recorded. Waiting for trial to end.';
+
+        // Add the waiting message to the document body
+        document.body.appendChild(waitingMessage);
     }
         
   
@@ -438,7 +452,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
     function yesNoTrial(promptMessage, obstacle_X, obstacle_Y, ball_X, ball_Y, obstacleRadius, trialDuration) {
-
         // Create main container
         var mainContainer_task = document.createElement('div');
         mainContainer_task.id = 'main-container_task';
@@ -480,6 +493,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         var startTime = performance.now();
+        // console.log(`Trial Start Time: ${startTime}`);
 
         // add draggable triangle
         var color_obstacle = randomChoice(['#acaad7', '#988edf', '#5c77fb', '#7f44f9'])
@@ -509,6 +523,34 @@ document.addEventListener("DOMContentLoaded", function () {
         // run the renderer
         Render.run(render);
         Runner.run(runner, engine);
+
+        // Define the response handler function inside the trial
+        const handleKeyResponse = (event) => {
+            if (['f', 'j'].includes(event.key)) {
+                const responseTime = performance.now() - startTime;
+                const remainingTime = trialDuration - responseTime;
+
+                // Only show the waiting message if there's more than 50ms left
+                if (remainingTime > 50) {
+                    // Dim the canvas
+                    canvasContainer_task.style.opacity = '0.5';
+
+                    // Add waiting message
+                    addWaitingMessage();
+                } 
+
+                // Remove the event listener to prevent multiple triggers
+                document.removeEventListener('keydown', handleKeyResponse);
+            }
+        };
+
+        // Add the event listener
+        document.addEventListener('keydown', handleKeyResponse);
+
+        // Ensure cleanup occurs at the end of the trial duration
+        setTimeout(() => {
+            document.removeEventListener('keydown', handleKeyResponse); // Double-check removal
+        }, trialDuration);
     }
 
     var timeline = []
@@ -537,7 +579,7 @@ document.addEventListener("DOMContentLoaded", function () {
         show_clickable_nav: true,
         allow_backward: false
     }
-    timeline.push(beforeYouBegin)
+    // timeline.push(beforeYouBegin)
 
     var checkBrowserDevice = {
         type: jsPsychBrowserCheck,
@@ -553,7 +595,7 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         }
       };
-    timeline.push(checkBrowserDevice)
+    // timeline.push(checkBrowserDevice)
       
     var consent = {
         type: jsPsychExternalHtml,
@@ -563,7 +605,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return true; 
         }
     };
-    timeline.push(consent)
+    // timeline.push(consent)
 
     var enter_fullscreen = {
         type: jsPsychFullscreen,
@@ -583,7 +625,7 @@ document.addEventListener("DOMContentLoaded", function () {
         minimum_width: 1000,
         minimum_height: 700
       };
-    timeline.push(enter_fullscreen, checkWindowSize)
+    // timeline.push(enter_fullscreen, checkWindowSize)
 
     var checkKeyboardSpace = {
         type: jsPsychHtmlKeyboardResponse,
@@ -643,8 +685,8 @@ document.addEventListener("DOMContentLoaded", function () {
         button_label: "Continue"
     };
 
-    timeline.push(checkKeyboardSpace, checkKeyboardF, checkKeyboardJ, checkWindowSize)
-    timeline.push(askProlificID)
+    // timeline.push(checkKeyboardSpace, checkKeyboardF, checkKeyboardJ, checkWindowSize)
+    // timeline.push(askProlificID)
 
 
     var instructions = { 
@@ -770,6 +812,7 @@ document.addEventListener("DOMContentLoaded", function () {
         stimulus: '',
         choices: ['f', 'j'],
         trial_duration: jsPsych.timelineVariable('timeConstraint'),
+        response_ends_trial: false,
         on_start: function() {
             cleanupTrial()
             const choice = jsPsych.timelineVariable('choice'); // Access 'choice' info
@@ -821,10 +864,10 @@ document.addEventListener("DOMContentLoaded", function () {
             '<div style="max-width: 900px; margin: auto;">' + 
             '<p><b><span style="font-size:25px;">INSTRUCTIONS (Continued): Important Points to Keep in Mind</span></b></p>' +
             '<br>' +
-            '<p style="text-align: left;"><b>-  Answer within time limits (1s/3s), even if you’re unsure.</b></p>' +
-            '<p style="text-align: left;">We know this might feel like a hard task, especially when you will need to make decisions <i>very</i> quickly in blocks with shorter time limits. <br>It might not feel like enough time. We are intentionally trying to look at decisions that happen when you have very little time to make them, just try and do your best!</p>' +
             '<p style="text-align: left;"><b>-  Please be as accurate as possible.</b></p>' +
-            '<p style="text-align: left;">Even small differences in the triangle’s position are important. Try your best to base your decision on whether the proposed position seems <i>exactly</i> correct. <br>In some trials, the proposed triangle position may be slightly off from where it should be, and that should count as a “No.”</p>'
+            '<p style="text-align: left;">Even small differences in the triangle’s position are important. Try your best to base your decision on whether the proposed position seems <i>exactly</i> correct. <br>In some trials, the proposed triangle position may be slightly off from where it should be, and that should count as a “No.”</p>'+
+            '<p style="text-align: left;"><b>-  Answer within time limits, even if you’re unsure.</b></p>' +
+            '<p style="text-align: left;">We know this might feel like a hard task, especially in 1s trials where you need to make decisions <i>very</i> quickly. <br>It might not feel like enough time. We are intentionally trying to look at decisions that happen under different time pressures, just try and do your best!</p>'
         ],
         show_clickable_nav: true,
         post_trial_gap: 500
@@ -970,7 +1013,7 @@ document.addEventListener("DOMContentLoaded", function () {
         timeline: [instructions_review_loop, compreCheck_All, repeat_prac_conditional], // <---- timeline will get execute once before looping, so need to remove the original procedure from the timeline
         loop_function: function() {return repeat_prac}
     }
-    timeline.push(instructions_check_loop)
+    // timeline.push(instructions_check_loop)
     
     var view_collisions = {
         type : jsPsychInstructions,
@@ -986,7 +1029,7 @@ document.addEventListener("DOMContentLoaded", function () {
         show_clickable_nav: true,
         allow_backward: true
     }
-    timeline.push(view_collisions)
+    // timeline.push(view_collisions)
 
 
     var start_practice_timed = {
@@ -1064,6 +1107,7 @@ document.addEventListener("DOMContentLoaded", function () {
         stimulus: '',
         choices: ['f', 'j'],
         trial_duration: jsPsych.timelineVariable('timeConstraint'),
+        response_ends_trial: false,
         on_start: function() {
             cleanupTrial()
             const choice = jsPsych.timelineVariable('choice'); // Access 'choice' info
@@ -1084,6 +1128,7 @@ document.addEventListener("DOMContentLoaded", function () {
             task: 'yesOrNo',
         },
         on_finish: function(data) {
+            cleanupTrial()
             jsPsych.data.addDataToLastTrial({
                 stimulus_idx: jsPsych.timelineVariable('choice').stimulus_idx,
                 choice: jsPsych.timelineVariable('choice').choice,
@@ -1093,7 +1138,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 timeLimit: jsPsych.timelineVariable('timeConstraint'),
                 currentTrial
             })
-            cleanupTrial()
         }
     };
 
@@ -1101,7 +1145,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return {
             type: jsPsychHtmlKeyboardResponse,
             stimulus: `<p><span style="font-size:40px;">${blockName}</span></p>` +
-                `<p><span style="font-size:25px;">You have <strong>${timeConstraint / 1000} second(s)</strong> to respond to the following trials.</span><br></p>` +
+                `<p><span style="font-size:25px;">You have <b style="color: #FF644F;"><strong>${timeConstraint / 1000} second(s)</strong></b> to respond to the following trials.</span><br></p>` +
                 `<p id="blinking-text" style="font-weight; animation: blink 2s infinite;">Press Space to continue</p>` +
                 `<style>
                     @keyframes blink {
@@ -1194,7 +1238,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     };
 
-    timeline.push(practiceAndTestLoop);
+    // timeline.push(practiceAndTestLoop);
 
     var start_task = {
         type : jsPsychInstructions,
@@ -1208,7 +1252,7 @@ document.addEventListener("DOMContentLoaded", function () {
         show_clickable_nav: true,
         allow_backward: false
     }
-    timeline.push(start_task)
+    // timeline.push(start_task)
 
 /// TODO: in the practice test trial, should make all collision possible (the choices should all be valid)
 //////// ---- above are modified 12/8/24 
@@ -1221,7 +1265,7 @@ document.addEventListener("DOMContentLoaded", function () {
         timeline.push({
             type: jsPsychHtmlKeyboardResponse,
             stimulus: `<p><span style="font-size:40px;">BLOCK ${blockIndex + 1}</span></p>` +
-                `<p><span style="font-size:25px;">You have <strong>${timeConstraint / 1000} second(s)</strong> to respond to the following trials.</span><br></p>`+
+                `<p><span style="font-size:25px;">You have <b style="color: #FF644F;"><strong>${timeConstraint / 1000} second(s)</strong></b> to respond to the following trials.</span><br></p>`+
                 `<p></p> <!-- Blank line -->
                 <p id="blinking-text" style="font-weight; animation: blink 2s infinite;">Press Space to continue</p>
                 <style>
